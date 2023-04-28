@@ -32,19 +32,19 @@ def get_school_dates(start_year,
 
 ### Parameters
 
-#### start_year `type: int`
+#### `start_year type: int`
 
 The first year (inclusive) of the range of years you want data for.
 
-#### end_year `type: int`
+#### `end_year type: int`
 
 The last year (inclusive) of the range of years you want data for.
 
-#### output_folder_target `type: str`
+#### `output_folder_target type: str`
 
 The absolute path of the folder you want to save csv data outputs to.
 
-#### output_mode `type: str`
+#### `output_mode type: str`
 
 How you want to output the csv containing the data. See csv examples above.
 
@@ -54,14 +54,14 @@ Takes arguments:
 - **'dayrows'** - Each date and state combo between the start and finish represented in its own row
 - **'binarydayrows'** - Each date between the start and finish represented in its own row, with states as columns with either 1 or 0 representing if that date has a school holiday on that date.
 
-#### targets `type: list`
+#### `targets # type: list`
 
 Defaults to a list of all states, but can be set with any list of states like `['act','nsw','vic']`.
 
-#### show_qa_printouts `type: bool`
+#### `show_qa_printouts # type: bool`
 
 `False` by default. If set to `True` will print useful information to the command line as the script runs.
 
-#### drop_terms `type: bool`
+#### `drop_terms # type: bool`
 
 `True` by default. If set to `False` rows representing the school terms won't be dropped from the output.
