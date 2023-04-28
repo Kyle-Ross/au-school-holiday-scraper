@@ -44,6 +44,8 @@ The last year (inclusive) of the range of years you want data for.
 
 The absolute path of the folder you want to save csv data outputs to.
 
+Will output to the location of the Main.py file by default.
+
 #### `output_mode` type: str
 
 How you want to output the csv containing the data. See csv examples above.
