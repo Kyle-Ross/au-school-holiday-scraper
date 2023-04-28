@@ -67,3 +67,19 @@ Defaults to a list of all states, but can be set with any list of states like `[
 #### `drop_terms` # type: bool
 
 `True` by default. If set to `False` rows representing the school terms won't be dropped from the output.
+
+---
+
+## Output Files
+
+### AU School Hols - Data - {start_year}-{end_year} - {output_mode}.csv
+
+The final data output in format you specified in the `output_mode` argument.
+
+### AU School Hols - Missing Data - {start_year}-{end_year}.csv
+
+Any state and year combinations that were not able to be scraped.
+
+### AU School Hols - Removed Rows - {start_year}-{end_year}.csv
+
+All rows that were removed throughing data cleaning. Should not contain any useful data, but worth checking.
