@@ -17,6 +17,12 @@ def get_school_dates(start_year,
                      targets=None,
                      show_qa_printouts=False,
                      drop_terms=True):
+
+    # Function that prints if show_qa_printouts = True
+    def qa_printout(message):
+        if show_qa_printouts:
+            print(message)
+
     # -------
     # Set-up
     # -------
@@ -104,9 +110,7 @@ def get_school_dates(start_year,
     # List for storing dfs of removed rows
     removed_rows_list = []
 
-    # Conditional printout for QA
-    if show_qa_printouts:
-        print(f'{"_" * 10}\n{"_" * 10}\nState Targets are {targets}{seperator * 2}')
+    qa_printout(f'{"_" * 10}\n{"_" * 10}\nState Targets are {targets}{seperator * 2}')
 
     # ---------
     # Main Loop
@@ -115,24 +119,18 @@ def get_school_dates(start_year,
     # Looping over target states
     for target_state in targets:
 
-        # Conditional printout for QA
-        if show_qa_printouts:
-            print(f' {targets}')
+        qa_printout(f' {targets}')
 
         # Looping over years in range
         for year in range(start_year, end_year + 1):
 
-            # Conditional printout for QA
-            if show_qa_printouts:
-                print(f'Year: {year}{seperator * 2}')
+            qa_printout(f'Year: {year}{seperator * 2}')
 
             # Checking if requested year is below the minimum
             if year < states_list[target_state]['min']:
 
-                # Conditional printout for QA
-                if show_qa_printouts:
-                    print(f"{target_state.upper()} data not pulled for year {year}, '{states_list[target_state]['url']}' "
-                          f"does not have data before {states_list[target_state]['min']}.")
+                qa_printout(f"{target_state.upper()} data not pulled for year {year}, '{states_list[target_state]['url']}"
+                            f"does not have data before {states_list[target_state]['min']}.")
 
                 # Appending dict to list of missing data
                 missing_list.append({'Type': 'below minimum available',
@@ -144,9 +142,7 @@ def get_school_dates(start_year,
 
             else:
 
-                # Conditional printout for QA
-                if show_qa_printouts:
-                    print(f'{year} above minimum for {target_state} = True{seperator}')
+                qa_printout(f'{year} above minimum for {target_state} = True{seperator}')
 
             # ---------------------
             # Building URL to scrape
@@ -160,9 +156,7 @@ def get_school_dates(start_year,
             else:
                 url = urljoin(states_list[target_state]['url'], states_list[target_state]['subdir'] + str(year))
 
-            # Conditional printout for QA
-            if show_qa_printouts:
-                print(f'URL: {url}{seperator}')
+            qa_printout(f'URL: {url}{seperator}')
 
             # ------------------------------------------------
             # Accessing HTML data & getting table as dataframe
@@ -210,9 +204,7 @@ def get_school_dates(start_year,
                 # Append that dataframe to removed_rows_list
                 removed_rows_list.append(df_na)
 
-                # Conditional printout for QA
-                if show_qa_printouts:
-                    print(f'Rows with NaNs that were removed:\n{df_na}{seperator}')
+                qa_printout(f'Rows with NaNs that were removed:\n{df_na}{seperator}')
 
                 # remove rows containing NaN values from the original DataFrame
                 df = df.dropna()
@@ -249,9 +241,7 @@ def get_school_dates(start_year,
                 df = df.reindex(
                     columns=['Calendar_Year', 'State', 'School_Period_Type', 'School_Period_Name', 'Start', 'Finish'])
 
-                # Conditional printout for QA
-                if show_qa_printouts:
-                    print(f'Final dataframe: \n{df}{seperator}')
+                qa_printout(f'Final dataframe: \n{df}{seperator}')
 
                 # Add dataframe to list before looping
                 df_list.append(df)
@@ -259,9 +249,7 @@ def get_school_dates(start_year,
             # End point for 404 errors
             except requests.exceptions.HTTPError as e:
 
-                # Conditional printout for QA
-                if show_qa_printouts:
-                    print(f"HTTP error: {e}{seperator}")
+                qa_printout(f"HTTP error: {e}{seperator}")
 
                 # Adding dictionary values to missing data list
                 missing_list.append({'Type': '404', 'Source': url, 'Year': year, 'State': target_state.upper()})
@@ -381,9 +369,7 @@ def get_school_dates(start_year,
     output_filename = f"{output_folder_target}\\AU School Hols - Data - " \
                       f"{start_year}-{end_year} - {output_mode}.csv"
 
-    # Conditional printout for QA
-    if show_qa_printouts:
-        print(f'Final dataframe: \n{output_df}{seperator}')
+    qa_printout(f'Final dataframe: \n{output_df}{seperator}')
 
     # Saving the output to the specified folder
     output_df.to_csv(output_filename, index=False)
@@ -399,9 +385,7 @@ def get_school_dates(start_year,
     # Converting error list to dataframe
     df_missing = pd.DataFrame(missing_list)
 
-    # Conditional printout for QA
-    if show_qa_printouts:
-        print(f'Missing data: \n{df_missing}{seperator}')
+    qa_printout(f'Missing data: \n{df_missing}{seperator}')
 
     # Outputting df_missing to specified folder
     df_missing.to_csv(missing_filename, index=False)
@@ -413,9 +397,7 @@ def get_school_dates(start_year,
     # Combining the many rows dfs
     all_removed_rows_df = pd.concat(removed_rows_list)
 
-    # Conditional printout for QA
-    if show_qa_printouts:
-        print(f'Missing rows: \n{all_removed_rows_df}{seperator}')
+    qa_printout(f'Missing rows: \n{all_removed_rows_df}{seperator}')
 
     # Generate the removed rows files output file name
     removed_rows_filename = f"{output_folder_target}\\AU School Hols - Removed Rows - " \
@@ -437,15 +419,15 @@ def get_school_dates(start_year,
 script_location = pathlib.Path(__file__).parent.resolve()
 
 # Function call for Default Start-Finish Format
-get_school_dates(2010,
-                 2026,
+get_school_dates(2023,
+                 2023,
                  output_mode='startfinish',
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  output_folder_target=script_location,
                  show_qa_printouts=True,
                  drop_terms=True)
 
-# Function Call for Day Rows format
+"""# Function Call for Day Rows format
 get_school_dates(2010,
                  2026,
                  output_mode='dayrows',
@@ -461,4 +443,4 @@ get_school_dates(2010,
                  output_folder_target=script_location,
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  show_qa_printouts=True,
-                 drop_terms=True)
+                 drop_terms=True)"""
