@@ -70,7 +70,7 @@ Defaults to a list of all states, but can be set with any list of states like `[
 
 ---
 
-## Output Files
+## CSV Files & Outputs
 
 ### AU School Hols - Data - {start_year}-{end_year} - {output_mode}.csv
 
@@ -83,3 +83,7 @@ Any state and year combinations that were not able to be scraped.
 ### AU School Hols - Removed Rows - {start_year}-{end_year}.csv
 
 All rows that were removed throughing data cleaning. Should not contain any useful data, but worth checking.
+
+### Backup Raw Data.csv
+
+File containing School holiday data for any States and Years which are not available via the web-scrape. This is used to fill out any missing information back to 2010.
