@@ -1,0 +1,200 @@
+Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
+2010,ACT,Holiday,Term 1 Holidays (Autumn),10/04/2010,26/04/2010,Web - as opposite of school terms
+2010,ACT,Holiday,Term 2 Holidays (Winter),3/07/2010,18/07/2010,Web - as opposite of school terms
+2010,ACT,Holiday,Term 3 Holidays (Spring),25/09/2010,10/10/2010,Web - as opposite of school terms
+2010,ACT,Holiday,Term 4 Holidays (Summer),18/12/2010,27/01/2011,Web - estimate based on last year
+2010,NSW,Holiday,Term 1 Holidays (Autumn),2/04/2010,18/04/2010,Web - as opposite of school terms
+2010,NSW,Holiday,Term 2 Holidays (Winter),3/07/2010,18/07/2010,Web - as opposite of school terms
+2010,NSW,Holiday,Term 3 Holidays (Spring),25/09/2010,10/10/2010,Web - as opposite of school terms
+2010,NSW,Holiday,Term 4 Holidays (Summer),18/12/2010,26/01/2011,Web - estimate based on last year
+2010,NT,Holiday,Term 1 Holidays (Autumn),2/04/2010,11/04/2010,Web - as opposite of school terms
+2010,NT,Holiday,Term 2 Holidays (Winter),19/06/2010,19/07/2010,Web - as opposite of school terms
+2010,NT,Holiday,Term 3 Holidays (Spring),25/09/2010,3/10/2010,Web - as opposite of school terms
+2010,NT,Holiday,Term 4 Holidays (Summer),11/12/2010,24/01/2011,Web - estimate based on last year
+2010,QLD,Holiday,Term 1 Holidays (Autumn),2/04/2010,11/04/2010,Web - as opposite of school terms
+2010,QLD,Holiday,Term 2 Holidays (Winter),26/06/2010,11/07/2010,Web - as opposite of school terms
+2010,QLD,Holiday,Term 3 Holidays (Spring),18/09/2010,3/10/2010,Web - as opposite of school terms
+2010,QLD,Holiday,Term 4 Holidays (Summer),11/12/2010,26/01/2011,Web - estimate based on last year
+2010,SA,Holiday,Term 1 Holidays (Autumn),2/04/2010,18/04/2010,Web - as opposite of school terms
+2010,SA,Holiday,Term 2 Holidays (Winter),3/07/2010,18/07/2010,Web - as opposite of school terms
+2010,SA,Holiday,Term 3 Holidays (Spring),25/09/2010,10/10/2010,Web - as opposite of school terms
+2010,SA,Holiday,Term 4 Holidays (Summer),11/12/2010,26/01/2011,Web - estimate based on last year
+2010,TAS,Holiday,Term 1 Holidays,29/05/2010,14/06/2010,Web - as opposite of school terms
+2010,TAS,Holiday,Term 2 Holidays,4/09/2010,19/09/2010,Web - as opposite of school terms
+2010,TAS,Holiday,Term 3 Holidays,17/12/2010,8/02/2011,Web - estimate based on last year
+2010,VIC,Holiday,Term 1 Holidays (Autumn),27/03/2010,11/04/2010,Web - as opposite of school terms
+2010,VIC,Holiday,Term 2 Holidays (Winter),26/06/2010,11/07/2010,Web - as opposite of school terms
+2010,VIC,Holiday,Term 3 Holidays (Spring),18/09/2010,3/10/2010,Web - as opposite of school terms
+2010,VIC,Holiday,Term 4 Holidays (Summer),18/12/2010,31/01/2011,Web - estimate based on last year
+2010,WA,Holiday,Term 1 Holidays (Autumn),2/04/2010,18/04/2010,Web - as opposite of school terms
+2010,WA,Holiday,Term 2 Holidays (Winter),3/07/2010,18/07/2010,Web - as opposite of school terms
+2010,WA,Holiday,Term 3 Holidays (Spring),25/09/2010,10/10/2010,Web - as opposite of school terms
+2010,WA,Holiday,Term 4 Holidays (Summer),17/12/2010,31/01/2011,Web - estimate based on last year
+2011,ACT,Holiday,School Holiday 1,16/04/2011,1/05/2011,Web
+2011,ACT,Holiday,School Holiday 2,9/07/2011,24/07/2011,Web
+2011,ACT,Holiday,School Holiday 3,1/10/2011,16/10/2011,Web
+2011,ACT,Holiday,School Holiday 4,22/12/2011,2/02/2012,Web
+2011,NSW,Holiday,School Holiday 1,9/04/2011,27/04/2011,Web
+2011,NSW,Holiday,School Holiday 2,2/07/2011,18/07/2011,Web
+2011,NSW,Holiday,School Holiday 3,24/09/2011,9/10/2011,Web
+2011,NSW,Holiday,School Holiday 4 - East,17/12/2011,30/01/2012,Web
+2011,NSW,Holiday,School Holiday 4 - West,17/12/2011,5/02/2012,Web
+2011,NT,Holiday,School Holiday 1,2/04/2011,10/04/2011,Web
+2011,NT,Holiday,School Holiday 2,25/06/2011,24/07/2011,Web
+2011,NT,Holiday,School Holiday 3,1/10/2011,9/10/2011,Web
+2011,NT,Holiday,School Holiday 4,17/12/2011,29/01/2012,Web
+2011,QLD,Holiday,School Holiday 1,16/04/2011,26/04/2011,Web
+2011,QLD,Holiday,School Holiday 2,25/06/2011,10/07/2011,Web
+2011,QLD,Holiday,School Holiday 4,9/12/2011,22/01/2012,Web
+2011,QLD ,Holiday,School Holiday 3,17/09/2011,2/10/2011,Web
+2011,SA,Holiday,School Holiday 1,16/04/2011,1/05/2011,Web
+2011,SA,Holiday,School Holiday 2,9/07/2011,24/07/2011,Web
+2011,SA,Holiday,School Holiday 3,1/10/2011,16/10/2011,Web
+2011,SA,Holiday,School Holiday 4,17/12/2011,29/01/2012,Web
+2011,TAS,Holiday,School Holiday 1,4/06/2011,19/06/2011,Web
+2011,TAS,Holiday,School Holiday 2,3/09/2011,18/09/2011,Web
+2011,TAS,Holiday,School Holiday 3,22/12/2011,6/02/2012,Web
+2011,VIC,Holiday,School Holiday 1,9/04/2011,26/04/2011,Web
+2011,VIC,Holiday,School Holiday 2,2/07/2011,17/07/2011,Web
+2011,VIC,Holiday,School Holiday 3,24/09/2011,9/10/2011,Web
+2011,VIC,Holiday,School Holiday 4,23/12/2011,1/02/2012,Web
+2011,WA,Holiday,School Holiday 1,20/04/2011,4/05/2011,Web
+2011,WA,Holiday,School Holiday 2,9/07/2011,25/07/2011,Web
+2011,WA,Holiday,School Holiday 3,1/10/2011,17/10/2011,Web
+2011,WA,Holiday,School Holiday 4,15/12/2011,1/02/2012,Web
+2012,ACT,Holiday,Term 1 Holidays (Autumn),14/04/2012,29/04/2012,Web - as opposite of school terms
+2012,ACT,Holiday,Term 2 Holidays (Winter),7/07/2012,22/07/2012,Web - as opposite of school terms
+2012,ACT,Holiday,Term 3 Holidays (Spring),29/09/2012,14/10/2012,Web - as opposite of school terms
+2012,ACT,Holiday,Term 4 Holidays (Summer),22/12/2012,1/02/2013,Web - estimate based on last year
+2012,NSW,Holiday,Term 1 Holidays (Autumn),6/04/2012,22/04/2012,Web - as opposite of school terms
+2012,NSW,Holiday,Term 2 Holidays (Winter),30/06/2012,15/07/2012,Web - as opposite of school terms
+2012,NSW,Holiday,Term 3 Holidays (Spring),22/09/2012,7/10/2012,Web - as opposite of school terms
+2012,NSW,Holiday,Term 4 Holidays (Summer),22/12/2012,25/01/2013,Web - estimate based on last year
+2012,NT,Holiday,Term 1 Holidays (Autumn),6/04/2012,15/04/2012,Web - as opposite of school terms
+2012,NT,Holiday,Term 2 Holidays (Winter),23/06/2012,22/07/2012,Web - as opposite of school terms
+2012,NT,Holiday,Term 3 Holidays (Spring),29/09/2012,7/10/2012,Web - as opposite of school terms
+2012,NT,Holiday,Term 4 Holidays (Summer),14/12/2012,28/01/2013,Web - estimate based on last year
+2012,QLD,Holiday,Term 1 Holidays (Autumn),31/03/2012,15/04/2012,Web - as opposite of school terms
+2012,QLD,Holiday,Term 2 Holidays (Winter),23/06/2012,8/07/2012,Web - as opposite of school terms
+2012,QLD,Holiday,Term 3 Holidays (Spring),22/09/2012,7/10/2012,Web - as opposite of school terms
+2012,QLD,Holiday,Term 4 Holidays (Summer),15/12/2012,21/01/2013,Web - estimate based on last year
+2012,SA,Holiday,Term 1 Holidays (Autumn),6/04/2012,22/04/2012,Web - as opposite of school terms
+2012,SA,Holiday,Term 2 Holidays (Winter),30/06/2012,15/07/2012,Web - as opposite of school terms
+2012,SA,Holiday,Term 3 Holidays (Spring),22/09/2012,7/10/2012,Web - as opposite of school terms
+2012,SA,Holiday,Term 4 Holidays (Summer),15/12/2012,28/01/2013,Web - estimate based on last year
+2012,TAS,Holiday,Term 1 Holidays (Autumn),7/04/2012,15/04/2012,Web - as opposite of school terms
+2012,TAS,Holiday,Term 2 Holidays (Winter),2/06/2012,17/06/2012,Web - as opposite of school terms
+2012,TAS,Holiday,Term 3 Holidays (Spring),8/09/2012,13/10/2012,Web - as opposite of school terms
+2012,TAS,Holiday,Term 4 Holidays (Summer),20/12/2012,12/02/2013,Web - estimate based on last year
+2012,VIC,Holiday,Term 1 Holidays (Autumn),31/03/2012,15/04/2012,Web - as opposite of school terms
+2012,VIC,Holiday,Term 2 Holidays (Winter),30/06/2012,15/07/2012,Web - as opposite of school terms
+2012,VIC,Holiday,Term 3 Holidays (Spring),22/09/2012,7/10/2012,Web - as opposite of school terms
+2012,VIC,Holiday,Term 4 Holidays (Summer),22/12/2012,30/01/2013,Web - estimate based on last year
+2012,WA,Holiday,Term 1 Holidays (Autumn),6/04/2012,25/04/2012,Web - as opposite of school terms
+2012,WA,Holiday,Term 2 Holidays (Winter),7/07/2012,23/07/2012,Web - as opposite of school terms
+2012,WA,Holiday,Term 3 Holidays (Spring),29/09/2012,15/10/2012,Web - as opposite of school terms
+2012,WA,Holiday,Term 4 Holidays (Summer),19/12/2012,30/01/2013,Web - estimate based on last year
+2013,ACT,Holiday,Term 1 Holidays (Autumn),13/04/2013,28/04/2013,Web
+2013,ACT,Holiday,Term 2 Holidays (Winter),6/07/2013,21/07/2013,Web
+2013,ACT,Holiday,Term 3 Holidays (Spring),28/09/2013,13/10/2013,Web
+2013,ACT,Holiday,Term 4 Holidays (Summer),21/12/2013,3/02/2014,Web
+2013,NSW,Holiday,Term 1 Holidays (Autumn),13/04/2013,28/04/2013,Web
+2013,NSW,Holiday,Term 2 Holidays (Winter),29/06/2013,14/07/2013,Web
+2013,NSW,Holiday,Term 3 Holidays (Spring),21/09/2013,6/10/2013,Web
+2013,NSW,Holiday,Term 4 Holidays (Summer),21/12/2013,26/01/2014,Web
+2013,NT,Holiday,Term 1 Holidays (Autumn),6/04/2013,14/04/2013,Web
+2013,NT,Holiday,Term 2 Holidays (Winter),22/06/2013,21/07/2013,Web
+2013,NT,Holiday,Term 3 Holidays (Spring),28/09/2013,6/10/2013,Web
+2013,NT,Holiday,Term 4 Holidays (Summer),13/12/2013,26/01/2014,Web
+2013,QLD,Holiday,Term 1 Holidays (Autumn),29/03/2013,14/04/2013,Web
+2013,QLD,Holiday,Term 2 Holidays (Winter),22/06/2013,7/07/2013,Web
+2013,QLD,Holiday,Term 3 Holidays (Spring),21/09/2013,7/10/2013,Web
+2013,QLD,Holiday,Term 4 Holidays (Summer),14/12/2013,27/01/2014,Web
+2013,SA,Holiday,Term 1 Holidays (Autumn),13/04/2013,28/04/2013,Web
+2013,SA,Holiday,Term 2 Holidays (Winter),6/07/2013,21/07/2013,Web
+2013,SA,Holiday,Term 3 Holidays (Spring),28/09/2013,13/10/2013,Web
+2013,SA,Holiday,Term 4 Holidays (Summer),14/12/2013,27/01/2014,Web
+2013,TAS,Holiday,Term 1 Holidays (Autumn),20/04/2013,5/05/2013,Web - as opposite of school terms
+2013,TAS,Holiday,Term 2 Holidays (Winter),6/07/2013,21/07/2013,Web - as opposite of school terms
+2013,TAS,Holiday,Term 4 Holidays (Summer),20/09/2013,4/02/2014,Web - estimate based on last year
+2013,TAS,Holiday,Term 3 Holidays (Spring),28/09/2013,13/10/2013,Web - as opposite of school terms
+2013,VIC,Holiday,Term 1 Holidays (Autumn),29/03/2013,14/04/2013,Web
+2013,VIC,Holiday,Term 2 Holidays (Winter),29/06/2013,14/07/2013,Web
+2013,VIC,Holiday,Term 3 Holidays (Spring),21/09/2013,6/10/2013,Web
+2013,VIC,Holiday,Term 4 Holidays (Summer),21/12/2013,27/01/2014,Web
+2013,WA,Holiday,Term 1 Holidays (Autumn),20/04/2013,5/05/2013,Web
+2013,WA,Holiday,Term 2 Holidays (Winter),6/07/2013,21/07/2013,Web
+2013,WA,Holiday,Term 3 Holidays (Spring),28/09/2013,13/10/2013,Web
+2013,WA,Holiday,Term 4 Holidays (Summer),20/12/2013,2/02/2014,Web
+2014,ACT,Holiday,Term 1 Holidays (Autumn),12/04/2014,27/04/2014,Web
+2014,ACT,Holiday,Term 2 Holidays (Winter),5/07/2014,20/07/2014,Web
+2014,ACT,Holiday,Term 3 Holidays (Spring),27/09/2014,12/10/2014,Web
+2014,ACT,Holiday,Term 4 Holidays (Summer),18/12/2014,2/02/2015,Web
+2014,NSW,Holiday,Term 1 Holidays (Autumn),12/04/2014,27/04/2014,Web
+2014,NSW,Holiday,Term 2 Holidays (Winter),28/06/2014,13/07/2014,Web
+2014,NSW,Holiday,Term 3 Holidays (Spring),20/09/2014,5/10/2014,Web
+2014,NSW,Holiday,Term 4 Holidays (Summer),20/12/2014,25/01/2015,Web
+2014,NT,Holiday,Term 1 Holidays (Autumn),5/04/2014,13/04/2014,Web
+2014,NT,Holiday,Term 2 Holidays (Winter),21/06/2014,20/07/2014,Web
+2014,NT,Holiday,Term 3 Holidays (Spring),27/09/2014,5/10/2014,Web
+2014,NT,Holiday,Term 4 Holidays (Summer),12/12/2014,25/01/2015,Web
+2014,SA,Holiday,Term 1 Holidays (Autumn),12/04/2014,27/04/2014,Web
+2014,SA,Holiday,Term 2 Holidays (Winter),5/07/2014,20/07/2014,Web
+2014,SA,Holiday,Term 3 Holidays (Spring),27/09/2014,12/10/2014,Web
+2014,SA,Holiday,Term 4 Holidays (Summer),13/12/2014,25/01/2015,Web
+2014,TAS,Holiday,Term 1 Holidays (Autumn),18/04/2014,4/05/2014,Web
+2014,TAS,Holiday,Term 2 Holidays (Winter),5/07/2014,20/07/2014,Web
+2014,TAS,Holiday,Term 3 Holidays (Spring),27/09/2014,12/10/2014,Web
+2014,TAS,Holiday,Term 4 Holidays (Summer),19/12/2014,3/02/2015,Web
+2014,WA,Holiday,Term 1 Holidays (Autumn),12/04/2014,27/04/2014,Web
+2014,WA,Holiday,Term 2 Holidays (Winter),5/07/2014,20/07/2014,Web
+2014,WA,Holiday,Term 3 Holidays (Spring),27/09/2014,12/10/2014,Web
+2014,WA,Holiday,Term 4 Holidays (Summer),19/12/2014,1/02/2015,Web
+2015,ACT,Holiday,Term 1 Holidays (Autumn),11/04/2015,29/04/2015,Web
+2015,ACT,Holiday,Term 2 Holidays (Winter),4/07/2015,19/07/2015,Web
+2015,ACT,Holiday,Term 3 Holidays (Spring),26/09/2015,11/10/2015,Web
+2015,ACT,Holiday,Term 4 Holidays (Summer),19/12/2015,1/02/2016,Web
+2015,NT,Holiday,Term 1 Holidays (Autumn),3/04/2015,12/04/2015,Web
+2015,NT,Holiday,Term 2 Holidays (Winter),20/06/2015,20/07/2015,Web
+2015,NT,Holiday,Term 3 Holidays (Spring),26/09/2015,4/10/2015,Web
+2015,NT,Holiday,Term 4 Holidays (Summer),11/12/2015,24/01/2016,Web
+2015,TAS,Holiday,Term 4 Holidays (Summer),18/02/2015,2/02/2016,Web
+2015,TAS,Holiday,Term 1 Holidays (Autumn),2/04/2015,19/04/2015,Web
+2015,TAS,Holiday,Term 2 Holidays (Winter),4/07/2015,19/07/2015,Web
+2015,TAS,Holiday,Term 3 Holidays (Spring),26/09/2015,11/10/2015,Web
+2016,ACT,Holiday,Term 1 Holidays (Autumn),9/04/2016,24/04/2016,Web
+2016,ACT,Holiday,Term 2 Holidays (Winter),2/07/2016,17/07/2016,Web
+2016,ACT,Holiday,Term 3 Holidays (Spring),24/09/2016,9/10/2016,Web
+2016,ACT,Holiday,Term 4 Holidays (Summer),17/12/2016,30/01/2017,Web
+2016,NT,Holiday,Term 1 Holidays (Autumn),2/04/2016,10/04/2016,Web
+2016,NT,Holiday,Term 2 Holidays (Winter),25/06/2016,25/07/2016,Web
+2016,NT,Holiday,Term 3 Holidays (Spring),1/10/2016,9/10/2016,Web
+2016,NT,Holiday,Term 4 Holidays (Summer),16/12/2016,29/01/2017,Web
+2016,TAS,Holiday,Term 1 Holidays (Autumn),9/04/2016,24/04/2016,Web
+2016,TAS,Holiday,Term 2 Holidays (Winter),2/07/2016,17/07/2016,Web
+2016,TAS,Holiday,Term 3 Holidays (Spring),24/09/2016,9/10/2016,Web
+2016,TAS,Holiday,Term 4 Holidays (Summer),22/12/2016,7/02/2017,Web
+2017,ACT,Holiday,Term 1 Holidays (Autumn),8/04/2017,24/04/2017,Web
+2017,ACT,Holiday,Term 2 Holidays (Winter),1/07/2017,16/07/2017,Web
+2017,ACT,Holiday,Term 3 Holidays (Spring),23/09/2017,8/10/2017,Web
+2017,ACT,Holiday,Term 4 Holidays (Summer),16/12/2017,6/02/2018,Web
+2017,NT,Holiday,Term 1 Holidays (Autumn),8/04/2017,16/04/2017,Web
+2017,NT,Holiday,Term 2 Holidays (Winter),24/06/2017,24/07/2017,Web
+2017,NT,Holiday,Term 3 Holidays (Spring),30/09/2017,8/10/2017,Web
+2017,NT,Holiday,Term 4 Holidays (Summer),14/12/2017,28/01/2018,Web
+2017,TAS,Holiday,Term 1 Holidays (Autumn),14/04/2017,30/04/2017,Web
+2017,TAS,Holiday,Term 2 Holidays (Winter),8/07/2017,23/07/2017,Web
+2017,TAS,Holiday,Term 3 Holidays (Spring),30/09/2017,15/10/2017,Web
+2017,TAS,Holiday,Term 4 Holidays (Summer),22/12/2017,6/02/2018,Web
+2024,ACT,Holiday,Term 1 Holidays (Autumn),13/04/2024,28/04/2024,Web
+2024,ACT,Holiday,Term 2 Holidays (Winter),6/07/2024,21/07/2024,Web
+2024,ACT,Holiday,Term 3 Holidays (Spring),28/09/2024,13/10/2024,Web
+2024,ACT,Holiday,Term 4 Holidays (Summer),18/12/2024,2/02/2025,Web
+2024,NT,Holiday,Term 1 Holidays (Autumn),6/04/2024,14/04/2024,Web
+2024,NT,Holiday,Term 2 Holidays (Winter),22/06/2024,14/07/2024,Web
+2024,NT,Holiday,Term 3 Holidays (Spring),21/09/2024,6/10/2024,Web
+2024,NT,Holiday,Term 4 Holidays (Summer),14/12/2024,27/01/2025,Web
+2024,TAS,Holiday,Term 1 Holidays (Autumn),12/04/2024,28/04/2024,Web
+2024,TAS,Holiday,Term 2 Holidays (Winter),6/07/2024,22/07/2024,Web
+2024,TAS,Holiday,Term 3 Holidays (Spring),28/09/2024,13/10/2024,Web
+2024,TAS,Holiday,Term 4 Holidays (Summer),20/12/2024,27/01/2025,Web - TBC
