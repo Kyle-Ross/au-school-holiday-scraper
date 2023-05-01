@@ -1,67 +1,67 @@
-Type,Source,Year,State
-below minimum available,dict lookup,2010,NSW
-below minimum available,dict lookup,2011,NSW
-below minimum available,dict lookup,2012,NSW
-below minimum available,dict lookup,2013,NSW
-below minimum available,dict lookup,2014,NSW
-404,https://www.nswschoolholiday.com.au/index.php/nsw-school-holiday-dates-2025,2025,NSW
-404,https://www.nswschoolholiday.com.au/index.php/nsw-school-holiday-dates-2026,2026,NSW
-below minimum available,dict lookup,2010,QLD
-below minimum available,dict lookup,2011,QLD
-below minimum available,dict lookup,2012,QLD
-below minimum available,dict lookup,2013,QLD
-404,https://www.qldschoolholiday.com.au/queensland-school-holiday-dates-2025,2025,QLD
-404,https://www.qldschoolholiday.com.au/queensland-school-holiday-dates-2026,2026,QLD
-below minimum available,dict lookup,2010,SA
-below minimum available,dict lookup,2011,SA
-below minimum available,dict lookup,2012,SA
-below minimum available,dict lookup,2013,SA
-below minimum available,dict lookup,2014,SA
-404,https://www.schoolholidayssa.com.au/sa-school-holiday-dates-2025,2025,SA
-404,https://www.schoolholidayssa.com.au/sa-school-holiday-dates-2026,2026,SA
-below minimum available,dict lookup,2010,VIC
-below minimum available,dict lookup,2011,VIC
-below minimum available,dict lookup,2012,VIC
-below minimum available,dict lookup,2013,VIC
-404,https://www.victoriaschoolholidays.com.au/vic-school-holiday-dates-2025,2025,VIC
-404,https://www.victoriaschoolholidays.com.au/vic-school-holiday-dates-2026,2026,VIC
-below minimum available,dict lookup,2010,WA
-below minimum available,dict lookup,2011,WA
-below minimum available,dict lookup,2012,WA
-below minimum available,dict lookup,2013,WA
-below minimum available,dict lookup,2014,WA
-404,https://www.schoolholidayswa.com.au/wa-school-holiday-dates-2025,2025,WA
-404,https://www.schoolholidayswa.com.au/wa-school-holiday-dates-2026,2026,WA
-below minimum available,dict lookup,2010,NT
-below minimum available,dict lookup,2011,NT
-below minimum available,dict lookup,2012,NT
-below minimum available,dict lookup,2013,NT
-below minimum available,dict lookup,2014,NT
-below minimum available,dict lookup,2015,NT
-below minimum available,dict lookup,2016,NT
-below minimum available,dict lookup,2017,NT
-404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2024,2024,NT
-404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2025,2025,NT
-404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2026,2026,NT
-below minimum available,dict lookup,2010,ACT
-below minimum available,dict lookup,2011,ACT
-below minimum available,dict lookup,2012,ACT
-below minimum available,dict lookup,2013,ACT
-below minimum available,dict lookup,2014,ACT
-below minimum available,dict lookup,2015,ACT
-below minimum available,dict lookup,2016,ACT
-below minimum available,dict lookup,2017,ACT
-404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2024,2024,ACT
-404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2025,2025,ACT
-404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2026,2026,ACT
-below minimum available,dict lookup,2010,TAS
-below minimum available,dict lookup,2011,TAS
-below minimum available,dict lookup,2012,TAS
-below minimum available,dict lookup,2013,TAS
-below minimum available,dict lookup,2014,TAS
-below minimum available,dict lookup,2015,TAS
-below minimum available,dict lookup,2016,TAS
-below minimum available,dict lookup,2017,TAS
-404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2024,2024,TAS
-404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2025,2025,TAS
-404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2026,2026,TAS
+Type,Source,Year,State,Backup Status
+below minimum available,dict lookup,2010,NSW,Data taken from backup
+below minimum available,dict lookup,2011,NSW,Data taken from backup
+below minimum available,dict lookup,2012,NSW,Data taken from backup
+below minimum available,dict lookup,2013,NSW,Data taken from backup
+below minimum available,dict lookup,2014,NSW,Data taken from backup
+404,https://www.nswschoolholiday.com.au/index.php/nsw-school-holiday-dates-2025,2025,NSW,Data not found in backup
+404,https://www.nswschoolholiday.com.au/index.php/nsw-school-holiday-dates-2026,2026,NSW,Data not found in backup
+below minimum available,dict lookup,2010,QLD,Data taken from backup
+below minimum available,dict lookup,2011,QLD,Data taken from backup
+below minimum available,dict lookup,2012,QLD,Data taken from backup
+below minimum available,dict lookup,2013,QLD,Data taken from backup
+404,https://www.qldschoolholiday.com.au/queensland-school-holiday-dates-2025,2025,QLD,Data not found in backup
+404,https://www.qldschoolholiday.com.au/queensland-school-holiday-dates-2026,2026,QLD,Data not found in backup
+below minimum available,dict lookup,2010,SA,Data taken from backup
+below minimum available,dict lookup,2011,SA,Data taken from backup
+below minimum available,dict lookup,2012,SA,Data taken from backup
+below minimum available,dict lookup,2013,SA,Data taken from backup
+below minimum available,dict lookup,2014,SA,Data taken from backup
+404,https://www.schoolholidayssa.com.au/sa-school-holiday-dates-2025,2025,SA,Data not found in backup
+404,https://www.schoolholidayssa.com.au/sa-school-holiday-dates-2026,2026,SA,Data not found in backup
+below minimum available,dict lookup,2010,VIC,Data taken from backup
+below minimum available,dict lookup,2011,VIC,Data taken from backup
+below minimum available,dict lookup,2012,VIC,Data taken from backup
+below minimum available,dict lookup,2013,VIC,Data taken from backup
+404,https://www.victoriaschoolholidays.com.au/vic-school-holiday-dates-2025,2025,VIC,Data not found in backup
+404,https://www.victoriaschoolholidays.com.au/vic-school-holiday-dates-2026,2026,VIC,Data not found in backup
+below minimum available,dict lookup,2010,WA,Data taken from backup
+below minimum available,dict lookup,2011,WA,Data taken from backup
+below minimum available,dict lookup,2012,WA,Data taken from backup
+below minimum available,dict lookup,2013,WA,Data taken from backup
+below minimum available,dict lookup,2014,WA,Data taken from backup
+404,https://www.schoolholidayswa.com.au/wa-school-holiday-dates-2025,2025,WA,Data not found in backup
+404,https://www.schoolholidayswa.com.au/wa-school-holiday-dates-2026,2026,WA,Data not found in backup
+below minimum available,dict lookup,2010,NT,Data taken from backup
+below minimum available,dict lookup,2011,NT,Data taken from backup
+below minimum available,dict lookup,2012,NT,Data taken from backup
+below minimum available,dict lookup,2013,NT,Data taken from backup
+below minimum available,dict lookup,2014,NT,Data taken from backup
+below minimum available,dict lookup,2015,NT,Data taken from backup
+below minimum available,dict lookup,2016,NT,Data taken from backup
+below minimum available,dict lookup,2017,NT,Data taken from backup
+404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2024,2024,NT,Data taken from backup
+404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2025,2025,NT,Data not found in backup
+404,https://www.ntschoolholidays.com.au/nt-school-holiday-dates-2026,2026,NT,Data not found in backup
+below minimum available,dict lookup,2010,ACT,Data taken from backup
+below minimum available,dict lookup,2011,ACT,Data taken from backup
+below minimum available,dict lookup,2012,ACT,Data taken from backup
+below minimum available,dict lookup,2013,ACT,Data taken from backup
+below minimum available,dict lookup,2014,ACT,Data taken from backup
+below minimum available,dict lookup,2015,ACT,Data taken from backup
+below minimum available,dict lookup,2016,ACT,Data taken from backup
+below minimum available,dict lookup,2017,ACT,Data taken from backup
+404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2024,2024,ACT,Data taken from backup
+404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2025,2025,ACT,Data not found in backup
+404,https://www.actschoolholidays.com.au/act-school-holiday-dates-2026,2026,ACT,Data not found in backup
+below minimum available,dict lookup,2010,TAS,Data taken from backup
+below minimum available,dict lookup,2011,TAS,Data taken from backup
+below minimum available,dict lookup,2012,TAS,Data taken from backup
+below minimum available,dict lookup,2013,TAS,Data taken from backup
+below minimum available,dict lookup,2014,TAS,Data taken from backup
+below minimum available,dict lookup,2015,TAS,Data taken from backup
+below minimum available,dict lookup,2016,TAS,Data taken from backup
+below minimum available,dict lookup,2017,TAS,Data taken from backup
+404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2024,2024,TAS,Data taken from backup
+404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2025,2025,TAS,Data not found in backup
+404,https://tasmanianschoolholidays.com.au/tasmanian-school-holiday-dates-2026,2026,TAS,Data not found in backup

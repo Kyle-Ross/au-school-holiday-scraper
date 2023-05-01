@@ -4,6 +4,7 @@ import pandas as pd
 import requests
 import pathlib
 import re
+import os
 
 
 # -------
@@ -290,8 +291,65 @@ def get_school_dates(start_year,
     combo_df['Start'] = pd.to_datetime(combo_df['Start'], format='%A %d %B %Y')
     combo_df['Finish'] = pd.to_datetime(combo_df['Finish'], format='%A %d %B %Y')
 
+    # -------------------------------------------------
+    # Checking for missing data in Backup Raw Data csv
+    # -------------------------------------------------
+    # get the current working directory
+    cwd = os.getcwd()
+
+    # construct the full file path using os.path.join
+    raw_date_path = os.path.join(cwd, "Backup Raw Data.csv")
+
+    # Create a dataframe using that data
+    raw_data = pd.read_csv(raw_date_path)
+
+    # Drop the note column
+    raw_data = raw_data.drop(['Note'], axis=1)
+
+    # Set datatypes for non-date rows
+    raw_data = raw_data.astype({"Calendar_Year": int,
+                                "State": str,
+                                "School_Period_Type": str,
+                                "School_Period_Name": str})
+
+    # Set datatypes for date rows
+    raw_data['Start'] = pd.to_datetime(raw_data['Start'], format='%d/%m/%Y')
+    raw_data['Finish'] = pd.to_datetime(raw_data['Finish'], format='%d/%m/%Y')
+
+    # Loop through each dictionary in missing_list
+    for missing_dict in missing_list:
+
+        # Extract the Year and State values from the current dictionary
+        year_value = missing_dict['Year']
+        state_value = missing_dict['State']
+
+        # Filter the rows in raw_data that match the missing Year and State values
+        filtered_data = raw_data[(raw_data['Calendar_Year'] == year_value) & (raw_data['State'] == state_value)]
+
+        # Check if any rows were filtered
+        # If they were, append them to the combo_df, print a message & and add a key to the missing_list dict
+        if not filtered_data.empty:
+
+            # Append the filtered data to combo_df
+            combo_df = pd.concat([combo_df, filtered_data])
+
+            # Add a new entry to the current dictionary for Backup Status
+            missing_dict['Backup Status'] = 'Data taken from backup'
+
+            qa_printout(f'Missing Data for Year: {year_value} & State {state_value} '
+                        f'found in Backup Raw Data and added to results')
+        # If no data was found, add key to dict in missing_list and do a qa printout
+        else:
+
+            missing_dict['Backup Status'] = 'Data not found in backup'
+
+            qa_printout(f'Missing Data for Year: {year_value} & State {state_value} '
+                        f'was not found in the backup data source')
+
+    # -----------------------------------
+
     # Sorting the combo dataframe
-    combo_df = combo_df.sort_values(["State", "Start"])
+    combo_df = combo_df.sort_values(["State", "Start"]).reset_index()
 
     # ----------------------------------------------
     # Date transformation conditional on output_mode
@@ -397,7 +455,7 @@ def get_school_dates(start_year,
     # Combining the many rows dfs
     all_removed_rows_df = pd.concat(removed_rows_list)
 
-    qa_printout(f'Missing rows: \n{all_removed_rows_df}{seperator}')
+    qa_printout(f'Removed rows: \n{all_removed_rows_df}{seperator}')
 
     # Generate the removed rows files output file name
     removed_rows_filename = f"{output_folder_target}\\AU School Hols - Removed Rows - " \
@@ -419,15 +477,15 @@ def get_school_dates(start_year,
 script_location = pathlib.Path(__file__).parent.resolve()
 
 # Function call for Default Start-Finish Format
-get_school_dates(2023,
-                 2023,
+get_school_dates(2010,
+                 2026,
                  output_mode='startfinish',
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  output_folder_target=script_location,
                  show_qa_printouts=True,
                  drop_terms=True)
 
-"""# Function Call for Day Rows format
+# Function Call for Day Rows format
 get_school_dates(2010,
                  2026,
                  output_mode='dayrows',
@@ -443,4 +501,4 @@ get_school_dates(2010,
                  output_folder_target=script_location,
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  show_qa_printouts=True,
-                 drop_terms=True)"""
+                 drop_terms=True)
