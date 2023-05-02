@@ -282,7 +282,8 @@ def get_school_dates(start_year,
         .apply(lambda x: re.sub(r'(\d+)(st|nd|rd|th)', r'\1', x))
 
     # Spot replacements for missing data
-    combo_df.loc[combo_df['Start'] == 'Wednesday 21 December 2016', 'Finish'] = 'Tuesday 2 February 2021'
+    combo_df.loc[(combo_df['Start'] == 'Wednesday 21 December 2016') & (combo_df['State'] == 'NSW'), 'Finish']\
+        = 'Tuesday 2 February 2017'
 
     # Trimming all values in all string columns
     combo_df = combo_df.applymap(lambda x: x.strip() if isinstance(x, str) else x)

@@ -116,7 +116,7 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2013,SA,Holiday,Term 4 Holidays (Summer),14/12/2013,27/01/2014,Web
 2013,TAS,Holiday,Term 1 Holidays (Autumn),20/04/2013,5/05/2013,Web - as opposite of school terms
 2013,TAS,Holiday,Term 2 Holidays (Winter),6/07/2013,21/07/2013,Web - as opposite of school terms
-2013,TAS,Holiday,Term 4 Holidays (Summer),20/09/2013,4/02/2014,Web - estimate based on last year
+2013,TAS,Holiday,Term 4 Holidays (Summer),20/12/2013,4/02/2014,Web - estimate based on last year
 2013,TAS,Holiday,Term 3 Holidays (Spring),28/09/2013,13/10/2013,Web - as opposite of school terms
 2013,VIC,Holiday,Term 1 Holidays (Autumn),29/03/2013,14/04/2013,Web
 2013,VIC,Holiday,Term 2 Holidays (Winter),29/06/2013,14/07/2013,Web
@@ -158,7 +158,7 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2015,NT,Holiday,Term 2 Holidays (Winter),20/06/2015,20/07/2015,Web
 2015,NT,Holiday,Term 3 Holidays (Spring),26/09/2015,4/10/2015,Web
 2015,NT,Holiday,Term 4 Holidays (Summer),11/12/2015,24/01/2016,Web
-2015,TAS,Holiday,Term 4 Holidays (Summer),18/02/2015,2/02/2016,Web
+2015,TAS,Holiday,Term 4 Holidays (Summer),18/12/2015,2/02/2016,Web
 2015,TAS,Holiday,Term 1 Holidays (Autumn),2/04/2015,19/04/2015,Web
 2015,TAS,Holiday,Term 2 Holidays (Winter),4/07/2015,19/07/2015,Web
 2015,TAS,Holiday,Term 3 Holidays (Spring),26/09/2015,11/10/2015,Web
