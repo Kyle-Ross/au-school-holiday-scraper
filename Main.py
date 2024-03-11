@@ -18,7 +18,6 @@ def get_school_dates(start_year,
                      targets=None,
                      show_qa_printouts=False,
                      drop_terms=True):
-
     # Function that prints if show_qa_printouts = True
     def qa_printout(message):
         if show_qa_printouts:
@@ -130,14 +129,15 @@ def get_school_dates(start_year,
             # Checking if requested year is below the minimum
             if year < states_list[target_state]['min']:
 
-                qa_printout(f"{target_state.upper()} data not pulled for year {year}, '{states_list[target_state]['url']}"
-                            f"does not have data before {states_list[target_state]['min']}.")
+                qa_printout(
+                    f"{target_state.upper()} data not pulled for year {year}, '{states_list[target_state]['url']}"
+                    f"does not have data before {states_list[target_state]['min']}.")
 
                 # Appending dict to list of missing data
                 missing_list.append({'Type': 'below minimum available',
-                                   'Source': 'dict lookup',
-                                   'Year': year,
-                                   'State': target_state.upper()})
+                                     'Source': 'dict lookup',
+                                     'Year': year,
+                                     'State': target_state.upper()})
 
                 continue
 
@@ -266,24 +266,40 @@ def get_school_dates(start_year,
     if drop_terms:
         combo_df = combo_df[combo_df["School_Period_Type"] == "Holiday"]
 
+    # Regex Patterns
+    number_suffixes = r"(\d+)(st|nd|rd|th)"
+    brackets_at_end = r" \(.+?\)$"
+
     # Removing characters to establish consistent formatting
-    combo_df['Start'] = combo_df['Start']\
-        .str.replace(',', '')\
-        .str.replace('(tbc)', '')\
-        .str.replace('(TBC)', '')\
-        .str.replace('*', '')\
+    combo_df['Start'] = combo_df['Start'] \
+        .str.replace(',', '') \
+        .str.replace('(tbc)', '') \
+        .str.replace('(TBC)', '') \
+        .str.replace('*', '') \
         .apply(lambda x: re.sub(r'(\d+)(st|nd|rd|th)', r'\1', x))
 
-    combo_df['Finish'] = combo_df['Finish']\
-        .str.replace(',', '')\
-        .str.replace('(tbc)', '')\
-        .str.replace('(TBC)', '')\
-        .str.replace('*', '')\
-        .apply(lambda x: re.sub(r'(\d+)(st|nd|rd|th)', r'\1', x))
+    combo_df['Finish'] = combo_df['Finish'] \
+        .str.replace(',', '') \
+        .str.replace('(tbc)', '') \
+        .str.replace('(TBC)', '') \
+        .str.replace(' TBC', '') \
+        .str.replace('*', '') \
+        .str.replace(' (Easter Monday Holiday)', '') \
+        .str.replace('End of January 2026', 'Tuesday 2 January 2026')\
+        .apply(lambda x: re.sub(number_suffixes, r'\1', x)) \
+        .apply(lambda y: re.sub(brackets_at_end, '', y))  # Removed brackets at the end of strings
 
-    # Spot replacements for missing data
-    combo_df.loc[(combo_df['Start'] == 'Wednesday 21 December 2016') & (combo_df['State'] == 'NSW'), 'Finish']\
+    # Spot replacements for missing data (CHECK THESE AS NEW INFO COMES IN)
+    combo_df.loc[(combo_df['Start'] == 'Wednesday 21 December 2016') & (combo_df['State'] == 'NSW'), 'Finish'] \
         = 'Tuesday 2 February 2017'
+    combo_df.loc[(combo_df['Start'] == 'Saturday 13 December 2025') & (combo_df['State'] == 'QLD'), 'Finish'] \
+        = 'Monday 26 January 2026'  # Estimate
+    combo_df.loc[(combo_df['Start'] == 'Saturday 13 December 2025') & (combo_df['State'] == 'SA'), 'Finish'] \
+        = 'Monday 26 January 2026'  # Estimate
+    combo_df.loc[(combo_df['Start'] == 'Friday 19 December 2025') & (combo_df['State'] == 'WA'), 'Finish'] \
+        = 'Sunday 1 February 2026'  # Per Gov
+    combo_df.loc[(combo_df['Start'] == 'Friday 19 December 2025') & (combo_df['State'] == 'ACT'), 'Finish'] \
+        = 'Sunday 1 February 2026'  # Estimate
 
     # Trimming all values in all string columns
     combo_df = combo_df.applymap(lambda x: x.strip() if isinstance(x, str) else x)
@@ -479,7 +495,7 @@ script_location = pathlib.Path(__file__).parent.resolve()
 
 # Function call for Default Start-Finish Format
 get_school_dates(2010,
-                 2026,
+                 2025,
                  output_mode='startfinish',
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  output_folder_target=script_location,
@@ -488,7 +504,7 @@ get_school_dates(2010,
 
 # Function Call for Day Rows format
 get_school_dates(2010,
-                 2026,
+                 2025,
                  output_mode='dayrows',
                  output_folder_target=script_location,
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
@@ -497,9 +513,11 @@ get_school_dates(2010,
 
 # Function call for Binary Day Rows format
 get_school_dates(2010,
-                 2026,
+                 2025,
                  output_mode='binarydayrows',
                  output_folder_target=script_location,
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
                  show_qa_printouts=True,
                  drop_terms=True)
+
+# TODO - Ability to build from existing data and only pull non-existing data
