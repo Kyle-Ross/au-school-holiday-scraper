@@ -198,18 +198,18 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2024,TAS,Holiday,Term 2 Holidays (Winter),6/07/2024,22/07/2024,Web
 2024,TAS,Holiday,Term 3 Holidays (Spring),28/09/2024,13/10/2024,Web
 2024,TAS,Holiday,Term 4 Holidays (Summer),20/12/2024,27/01/2025,Web - TBC
-2025,NSW,Holiday,Term 1 Holidays (Autumn),12/04/2025,24/04/2025,Web
-2025,NSW,Holiday,Term 2 Holidays (Winter),5/07/2025,20/07/2025,Web
-2025,NSW,Holiday,Term 3 Holidays (Spring),27/09/2025,12/10/2025,Web
-2025,NSW,Holiday,Term 4 Holidays (Summer),20/10/2025,1/02/2026,Web
+2015,NSW,Holiday,School Holidays,3/04/2015,19/04/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,School Holidays,27/06/2015,12/07/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,School Holidays,19/09/2015,5/10/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,2015/2016 Summer School Holidays,17/12/2015,24/01/2016,"Web scrape, 2025 run"
 2025,VIC,Holiday,Term 1 Holidays (Autumn),5/04/2025,21/04/2025,Web
 2025,VIC,Holiday,Term 2 Holidays (Winter),5/07/2025,20/07/2025,Web
 2025,VIC,Holiday,Term 3 Holidays (Spring),20/06/2025,5/10/2025,Web
-2025,VIC,Holiday,Term 4 Holidays (Summer),20/10/2025,26/01/2026,Web
+2025,VIC,Holiday,Term 4 Holidays (Summer),20/12/2025,28/01/2026,Web
 2025,TAS,Holiday,Term 1 Holidays (Autumn),12/04/2025,27/04/2025,Web
 2025,TAS,Holiday,Term 2 Holidays (Winter),5/07/2025,20/07/2025,Web
 2025,TAS,Holiday,Term 3 Holidays (Spring),27/09/2025,12/10/2025,Web
-2025,TAS,Holiday,Term 4 Holidays (Summer),19/10/2025,2/02/2026,Web - TBC
+2025,TAS,Holiday,Term 4 Holidays (Summer),19/12/2025,4/02/2025,Web - TBC
 2026,TAS,Holiday,Term 1 Holidays (Autumn),12/04/2026,27/04/2026,Web
 2026,TAS,Holiday,Term 2 Holidays (Winter),5/07/2026,20/07/2026,Web
 2026,TAS,Holiday,Term 3 Holidays (Spring),27/09/2026,12/10/2026,Web
@@ -238,11 +238,11 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2026,NT,Holiday,Term 2 Holidays (Winter),20/06/2026,13/07/2026,Web
 2026,NT,Holiday,Term 3 Holidays (Spring),19/09/2026,5/10/2026,Web
 2026,NT,Holiday,Term 4 Holidays (Summer),11/12/2026,26/01/2027,Web
-2026,NSW,Holiday,Term 1 Holidays (Autumn),1/04/2026,19/04/2026,Web
-2026,NSW,Holiday,Term 2 Holidays (Winter),4/07/2026,19/07/2026,Web
-2026,NSW,Holiday,Term 3 Holidays (Spring),26/09/2026,11/10/2026,Web
-2026,NSW,Holiday,Term 4 Holidays - East (Summer),18/12/2026,27/01/2027,Web
-2026,NSW,Holiday,Term 4 Holidays - West (Summer),18/12/2026,3/02/2027,Web
+2016,NSW,Holiday,School Holidays,9/04/2016,26/04/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,School Holidays,2/07/2016,18/07/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,School Holidays,24/09/2016,9/10/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,2016/2017 Summer School Holidays,21/12/2016,2/02/2017,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays,8/04/2017,25/04/2017,"Web scrape, 2025 run"
 2018,ACT,Holiday,School Holidays,14/04/2018,29/04/2018,"Web scrape, 2025 run"
 2018,ACT,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
 2018,ACT,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
@@ -274,16 +274,7 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2025,ACT,Holiday,School Holidays,12/04/2025,28/04/2025,"Web scrape, 2025 run"
 2025,ACT,Holiday,School Holidays,5/07/2025,21/07/2025,"Web scrape, 2025 run"
 2025,ACT,Holiday,School Holidays,27/09/2025,13/10/2025,"Web scrape, 2025 run"
-2025,ACT,Holiday,School Holidays,19/12/2025,1/02/2026,"Web scrape, 2025 run"
-2015,NSW,Holiday,School Holidays,3/04/2015,19/04/2015,"Web scrape, 2025 run"
-2015,NSW,Holiday,School Holidays,27/06/2015,12/07/2015,"Web scrape, 2025 run"
-2015,NSW,Holiday,School Holidays,19/09/2015,5/10/2015,"Web scrape, 2025 run"
-2015,NSW,Holiday,2015/2016 Summer School Holidays,17/12/2015,24/01/2016,"Web scrape, 2025 run"
-2016,NSW,Holiday,School Holidays,9/04/2016,26/04/2016,"Web scrape, 2025 run"
-2016,NSW,Holiday,School Holidays,2/07/2016,18/07/2016,"Web scrape, 2025 run"
-2016,NSW,Holiday,School Holidays,24/09/2016,9/10/2016,"Web scrape, 2025 run"
-2016,NSW,Holiday,2016/2017 Summer School Holidays,21/12/2016,2/02/2017,"Web scrape, 2025 run"
-2017,NSW,Holiday,School Holidays,8/04/2017,25/04/2017,"Web scrape, 2025 run"
+2025,ACT,Holiday,School Holidays,19/12/2025,29/01/2025,"Web scrape, 2025 run"
 2017,NSW,Holiday,School Holidays,1/07/2017,17/07/2017,"Web scrape, 2025 run"
 2017,NSW,Holiday,School Holidays,23/09/2017,8/10/2017,"Web scrape, 2025 run"
 2017,NSW,Holiday,School Holidays - Western Division,16/12/2017,5/02/2018,"Web scrape, 2025 run"
@@ -323,6 +314,15 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2024,NSW,Holiday,School Holidays,30/09/2024,11/10/2024,"Web scrape, 2025 run"
 2024,NSW,Holiday,School Holidays - Eastern Division,23/12/2024,24/01/2025,"Web scrape, 2025 run"
 2024,NSW,Holiday,School Holidays - Western Division,23/12/2024,31/01/2025,"Web scrape, 2025 run"
+2025,NSW,Holiday,Term 1 Holidays (Autumn),12/04/2025,24/04/2025,Web
+2025,NSW,Holiday,Term 2 Holidays (Winter),5/07/2025,20/07/2025,Web
+2025,NSW,Holiday,Term 3 Holidays (Spring),27/09/2025,12/10/2025,Web
+2025,NSW,Holiday,Term 4 Holidays (Summer),20/12/2025,2/02/2026,Web
+2026,NSW,Holiday,Term 1 Holidays (Autumn),1/04/2026,19/04/2026,Web
+2026,NSW,Holiday,Term 2 Holidays (Winter),4/07/2026,19/07/2026,Web
+2026,NSW,Holiday,Term 3 Holidays (Spring),26/09/2026,11/10/2026,Web
+2026,NSW,Holiday,Term 4 Holidays - East (Summer),18/12/2026,27/01/2027,Web
+2026,NSW,Holiday,Term 4 Holidays - West (Summer),18/12/2026,3/02/2027,Web
 2018,NT,Holiday,School Holidays,16/04/2018,20/04/2018,"Web scrape, 2025 run"
 2018,NT,Holiday,School Holidays,2/07/2018,20/07/2018,"Web scrape, 2025 run"
 2018,NT,Holiday,School Holidays,1/10/2018,12/10/2018,"Web scrape, 2025 run"
@@ -446,7 +446,7 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2025,SA,Holiday,School Holidays,12/04/2025,27/04/2025,"Web scrape, 2025 run"
 2025,SA,Holiday,School Holidays,5/07/2025,20/07/2025,"Web scrape, 2025 run"
 2025,SA,Holiday,School Holidays,27/09/2025,12/10/2025,"Web scrape, 2025 run"
-2025,SA,Holiday,School Holidays,13/12/2025,26/01/2026,"Web scrape, 2025 run"
+2025,SA,Holiday,School Holidays,12/12/2025,26/01/2026,"Web scrape, 2025 run"
 2018,TAS,Holiday,School Holidays,13/04/2018,29/04/2018,"Web scrape, 2025 run"
 2018,TAS,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
 2018,TAS,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
