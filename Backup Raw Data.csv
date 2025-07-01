@@ -241,4 +241,523 @@ Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish,Note
 2026,NSW,Holiday,Term 1 Holidays (Autumn),1/04/2026,19/04/2026,Web
 2026,NSW,Holiday,Term 2 Holidays (Winter),4/07/2026,19/07/2026,Web
 2026,NSW,Holiday,Term 3 Holidays (Spring),26/09/2026,11/10/2026,Web
-2026,NSW,Holiday,Term 4 Holidays (Summer),18/12/2026,3/02/2027,Web
+2026,NSW,Holiday,Term 4 Holidays - East (Summer),18/12/2026,27/01/2027,Web
+2026,NSW,Holiday,Term 4 Holidays - West (Summer),18/12/2026,3/02/2027,Web
+2018,ACT,Holiday,School Holidays,14/04/2018,29/04/2018,"Web scrape, 2025 run"
+2018,ACT,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
+2018,ACT,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
+2018,ACT,Holiday,School Holidays,22/12/2018,3/02/2019,"Web scrape, 2025 run"
+2019,ACT,Holiday,School Holidays,13/04/2019,28/04/2019,"Web scrape, 2025 run"
+2019,ACT,Holiday,School Holidays,6/07/2019,21/07/2019,"Web scrape, 2025 run"
+2019,ACT,Holiday,School Holidays,28/09/2019,13/10/2019,"Web scrape, 2025 run"
+2019,ACT,Holiday,School Holidays,19/12/2019,2/02/2020,"Web scrape, 2025 run"
+2020,ACT,Holiday,School Holidays,10/04/2020,26/04/2020,"Web scrape, 2025 run"
+2020,ACT,Holiday,School Holidays,4/07/2020,19/07/2020,"Web scrape, 2025 run"
+2020,ACT,Holiday,School Holidays,26/09/2020,11/10/2020,"Web scrape, 2025 run"
+2020,ACT,Holiday,School Holidays,18/12/2020,1/02/2021,"Web scrape, 2025 run"
+2021,ACT,Holiday,School Holidays,2/04/2021,18/04/2021,"Web scrape, 2025 run"
+2021,ACT,Holiday,School Holidays,26/06/2021,11/07/2021,"Web scrape, 2025 run"
+2021,ACT,Holiday,School Holidays,18/09/2021,4/10/2021,"Web scrape, 2025 run"
+2021,ACT,Holiday,School Holidays,18/12/2021,30/01/2022,"Web scrape, 2025 run"
+2022,ACT,Holiday,School Holidays,9/04/2022,25/04/2022,"Web scrape, 2025 run"
+2022,ACT,Holiday,School Holidays,2/07/2022,17/07/2022,"Web scrape, 2025 run"
+2022,ACT,Holiday,School Holidays,24/09/2022,9/10/2022,"Web scrape, 2025 run"
+2022,ACT,Holiday,School Holidays,17/12/2022,29/01/2023,"Web scrape, 2025 run"
+2023,ACT,Holiday,School Holidays,7/04/2023,23/04/2023,"Web scrape, 2025 run"
+2023,ACT,Holiday,School Holidays,1/07/2023,16/07/2023,"Web scrape, 2025 run"
+2023,ACT,Holiday,School Holidays,23/09/2023,8/10/2023,"Web scrape, 2025 run"
+2023,ACT,Holiday,School Holidays,16/12/2023,29/01/2024,"Web scrape, 2025 run"
+2024,ACT,Holiday,School Holidays,13/04/2024,28/04/2024,"Web scrape, 2025 run"
+2024,ACT,Holiday,School Holidays,6/07/2024,21/07/2024,"Web scrape, 2025 run"
+2024,ACT,Holiday,School Holidays,28/09/2024,13/10/2024,"Web scrape, 2025 run"
+2024,ACT,Holiday,School Holidays,18/12/2024,2/02/2025,"Web scrape, 2025 run"
+2025,ACT,Holiday,School Holidays,12/04/2025,28/04/2025,"Web scrape, 2025 run"
+2025,ACT,Holiday,School Holidays,5/07/2025,21/07/2025,"Web scrape, 2025 run"
+2025,ACT,Holiday,School Holidays,27/09/2025,13/10/2025,"Web scrape, 2025 run"
+2025,ACT,Holiday,School Holidays,19/12/2025,1/02/2026,"Web scrape, 2025 run"
+2015,NSW,Holiday,School Holidays,3/04/2015,19/04/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,School Holidays,27/06/2015,12/07/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,School Holidays,19/09/2015,5/10/2015,"Web scrape, 2025 run"
+2015,NSW,Holiday,2015/2016 Summer School Holidays,17/12/2015,24/01/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,School Holidays,9/04/2016,26/04/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,School Holidays,2/07/2016,18/07/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,School Holidays,24/09/2016,9/10/2016,"Web scrape, 2025 run"
+2016,NSW,Holiday,2016/2017 Summer School Holidays,21/12/2016,2/02/2017,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays,8/04/2017,25/04/2017,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays,1/07/2017,17/07/2017,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays,23/09/2017,8/10/2017,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays - Western Division,16/12/2017,5/02/2018,"Web scrape, 2025 run"
+2017,NSW,Holiday,School Holidays - Eastern Division,16/12/2017,29/01/2018,"Web scrape, 2025 run"
+2018,NSW,Holiday,School Holidays,14/04/2018,29/04/2018,"Web scrape, 2025 run"
+2018,NSW,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
+2018,NSW,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
+2018,NSW,Holiday,School Holidays - Eastern Division,22/12/2018,28/01/2019,"Web scrape, 2025 run"
+2018,NSW,Holiday,School Holidays - Western Division,22/12/2018,4/02/2019,"Web scrape, 2025 run"
+2019,NSW,Holiday,School Holidays,13/04/2019,28/04/2019,"Web scrape, 2025 run"
+2019,NSW,Holiday,School Holidays,6/07/2019,21/07/2019,"Web scrape, 2025 run"
+2019,NSW,Holiday,School Holidays,28/09/2019,13/10/2019,"Web scrape, 2025 run"
+2019,NSW,Holiday,School Holidays - Western Division,21/12/2019,3/02/2020,"Web scrape, 2025 run"
+2019,NSW,Holiday,School Holidays - Eastern Division,21/12/2019,27/01/2020,"Web scrape, 2025 run"
+2020,NSW,Holiday,School Holidays,10/04/2020,26/04/2020,"Web scrape, 2025 run"
+2020,NSW,Holiday,School Holidays,4/07/2020,19/07/2020,"Web scrape, 2025 run"
+2020,NSW,Holiday,School Holidays,26/09/2020,11/10/2020,"Web scrape, 2025 run"
+2020,NSW,Holiday,School Holidays - Eastern Division,19/12/2020,26/01/2021,"Web scrape, 2025 run"
+2020,NSW,Holiday,School Holidays - Western Division,19/12/2020,2/02/2021,"Web scrape, 2025 run"
+2021,NSW,Holiday,School Holidays,2/04/2021,18/04/2021,"Web scrape, 2025 run"
+2021,NSW,Holiday,School Holidays,26/06/2021,11/07/2021,"Web scrape, 2025 run"
+2021,NSW,Holiday,School Holidays,18/09/2021,4/10/2021,"Web scrape, 2025 run"
+2021,NSW,Holiday,School Holidays - Eastern Division,18/12/2021,27/01/2022,"Web scrape, 2025 run"
+2021,NSW,Holiday,School Holidays - Western Division,18/12/2021,3/02/2022,"Web scrape, 2025 run"
+2022,NSW,Holiday,School Holidays,9/04/2022,25/04/2022,"Web scrape, 2025 run"
+2022,NSW,Holiday,School Holidays,2/07/2022,17/07/2022,"Web scrape, 2025 run"
+2022,NSW,Holiday,School Holidays,24/09/2022,9/10/2022,"Web scrape, 2025 run"
+2022,NSW,Holiday,School Holidays - Eastern Division,21/12/2022,29/01/2023,"Web scrape, 2025 run"
+2022,NSW,Holiday,School Holidays - Western Division,21/12/2022,5/02/2023,"Web scrape, 2025 run"
+2023,NSW,Holiday,School Holidays,10/04/2023,21/04/2023,"Web scrape, 2025 run"
+2023,NSW,Holiday,School Holidays,3/07/2023,14/07/2023,"Web scrape, 2025 run"
+2023,NSW,Holiday,School Holidays,25/09/2023,6/10/2023,"Web scrape, 2025 run"
+2023,NSW,Holiday,School Holidays - Eastern Division,20/12/2023,29/01/2024,"Web scrape, 2025 run"
+2023,NSW,Holiday,School Holidays - Western Division,20/12/2023,5/02/2024,"Web scrape, 2025 run"
+2024,NSW,Holiday,School Holidays,15/04/2024,26/04/2024,"Web scrape, 2025 run"
+2024,NSW,Holiday,School Holidays,8/07/2024,19/07/2024,"Web scrape, 2025 run"
+2024,NSW,Holiday,School Holidays,30/09/2024,11/10/2024,"Web scrape, 2025 run"
+2024,NSW,Holiday,School Holidays - Eastern Division,23/12/2024,24/01/2025,"Web scrape, 2025 run"
+2024,NSW,Holiday,School Holidays - Western Division,23/12/2024,31/01/2025,"Web scrape, 2025 run"
+2018,NT,Holiday,School Holidays,16/04/2018,20/04/2018,"Web scrape, 2025 run"
+2018,NT,Holiday,School Holidays,2/07/2018,20/07/2018,"Web scrape, 2025 run"
+2018,NT,Holiday,School Holidays,1/10/2018,12/10/2018,"Web scrape, 2025 run"
+2018,NT,Holiday,School Holidays,17/12/2018,25/01/2019,"Web scrape, 2025 run"
+2019,NT,Holiday,School Holidays,15/04/2019,18/04/2019,"Web scrape, 2025 run"
+2019,NT,Holiday,School Holidays,1/07/2019,19/07/2019,"Web scrape, 2025 run"
+2019,NT,Holiday,School Holidays,30/09/2019,11/10/2019,"Web scrape, 2025 run"
+2019,NT,Holiday,School Holidays,16/12/2019,24/01/2020,"Web scrape, 2025 run"
+2020,NT,Holiday,School Holidays,14/04/2020,17/04/2020,"Web scrape, 2025 run"
+2020,NT,Holiday,School Holidays,29/06/2020,17/07/2020,"Web scrape, 2025 run"
+2020,NT,Holiday,School Holidays,28/09/2020,9/10/2020,"Web scrape, 2025 run"
+2020,NT,Holiday,School Holidays,21/12/2020,29/01/2021,"Web scrape, 2025 run"
+2021,NT,Holiday,School Holidays,17/04/2021,26/04/2021,"Web scrape, 2025 run"
+2021,NT,Holiday,School Holidays,3/07/2021,26/07/2021,"Web scrape, 2025 run"
+2021,NT,Holiday,School Holidays,2/10/2021,17/10/2021,"Web scrape, 2025 run"
+2021,NT,Holiday,School Holidays,18/12/2021,20/01/2022,"Web scrape, 2025 run"
+2022,NT,Holiday,School Holidays,9/04/2022,18/04/2022,"Web scrape, 2025 run"
+2022,NT,Holiday,School Holidays,25/06/2022,18/07/2022,"Web scrape, 2025 run"
+2022,NT,Holiday,School Holidays,24/09/2022,9/10/2022,"Web scrape, 2025 run"
+2022,NT,Holiday,School Holidays,17/12/2022,29/01/2023,"Web scrape, 2025 run"
+2023,NT,Holiday,School Holidays,7/04/2023,16/04/2023,"Web scrape, 2025 run"
+2023,NT,Holiday,School Holidays,24/06/2023,17/07/2023,"Web scrape, 2025 run"
+2023,NT,Holiday,School Holidays,23/09/2023,8/10/2023,"Web scrape, 2025 run"
+2023,NT,Holiday,School Holidays,16/12/2023,29/01/2024,"Web scrape, 2025 run"
+2024,NT,Holiday,School Holidays,6/04/2024,14/04/2024,"Web scrape, 2025 run"
+2024,NT,Holiday,School Holidays,22/06/2024,15/07/2024,"Web scrape, 2025 run"
+2024,NT,Holiday,School Holidays,21/09/2024,6/10/2024,"Web scrape, 2025 run"
+2024,NT,Holiday,School Holidays,14/12/2024,28/01/2025,"Web scrape, 2025 run"
+2025,NT,Holiday,School Holidays,5/04/2025,13/04/2025,"Web scrape, 2025 run"
+2025,NT,Holiday,School Holidays,21/06/2025,14/07/2025,"Web scrape, 2025 run"
+2025,NT,Holiday,School Holidays,20/09/2025,5/10/2025,"Web scrape, 2025 run"
+2025,NT,Holiday,School Holidays,13/12/2025,27/01/2026,"Web scrape, 2025 run"
+2014,QLD,Holiday,School Holidays,5/04/2014,21/04/2014,"Web scrape, 2025 run"
+2014,QLD,Holiday,School Holidays,28/06/2014,13/07/2014,"Web scrape, 2025 run"
+2014,QLD,Holiday,School Holidays,20/09/2014,7/10/2014,"Web scrape, 2025 run"
+2014,QLD,Holiday,2013/2014 Summer School Holidays,14/12/2014,26/01/2015,"Web scrape, 2025 run"
+2015,QLD,Holiday,School Holidays,3/04/2015,19/04/2015,"Web scrape, 2025 run"
+2015,QLD,Holiday,School Holidays,27/06/2015,12/07/2015,"Web scrape, 2025 run"
+2015,QLD,Holiday,School Holidays,19/09/2015,5/10/2015,"Web scrape, 2025 run"
+2015,QLD,Holiday,2015/2016 Summer School Holidays,12/12/2015,24/01/2016,"Web scrape, 2025 run"
+2016,QLD,Holiday,School Holidays,25/03/2016,10/04/2016,"Web scrape, 2025 run"
+2016,QLD,Holiday,School Holidays,25/06/2016,10/07/2016,"Web scrape, 2025 run"
+2016,QLD,Holiday,School Holidays,17/09/2016,3/10/2016,"Web scrape, 2025 run"
+2016,QLD,Holiday,2016/2017 Summer School Holidays,10/12/2016,22/01/2017,"Web scrape, 2025 run"
+2017,QLD,Holiday,School Holidays,1/04/2017,17/04/2017,"Web scrape, 2025 run"
+2017,QLD,Holiday,School Holidays,24/06/2017,9/07/2017,"Web scrape, 2025 run"
+2017,QLD,Holiday,School Holidays,16/09/2017,2/10/2017,"Web scrape, 2025 run"
+2017,QLD,Holiday,2017/2018 Summer School Holidays,9/12/2017,21/01/2018,"Web scrape, 2025 run"
+2018,QLD,Holiday,School Holidays,30/03/2018,15/04/2018,"Web scrape, 2025 run"
+2018,QLD,Holiday,School Holidays,30/06/2018,15/07/2018,"Web scrape, 2025 run"
+2018,QLD,Holiday,School Holidays,22/09/2018,7/10/2018,"Web scrape, 2025 run"
+2018,QLD,Holiday,2018/2019 Summer School Holidays,15/12/2018,28/01/2019,"Web scrape, 2025 run"
+2019,QLD,Holiday,School Holidays,6/04/2019,22/04/2019,"Web scrape, 2025 run"
+2019,QLD,Holiday,School Holidays,29/06/2019,14/07/2019,"Web scrape, 2025 run"
+2019,QLD,Holiday,School Holidays,21/09/2019,7/10/2019,"Web scrape, 2025 run"
+2019,QLD,Holiday,2019/2020 Summer School Holidays,14/12/2019,27/01/2020,"Web scrape, 2025 run"
+2020,QLD,Holiday,School Holidays,4/04/2020,19/04/2020,"Web scrape, 2025 run"
+2020,QLD,Holiday,School Holidays,27/06/2020,12/07/2020,"Web scrape, 2025 run"
+2020,QLD,Holiday,School Holidays,19/09/2020,5/10/2020,"Web scrape, 2025 run"
+2020,QLD,Holiday,2020/2021 Summer School Holidays,12/12/2020,25/01/2021,"Web scrape, 2025 run"
+2021,QLD,Holiday,School Holidays,2/04/2021,18/04/2021,"Web scrape, 2025 run"
+2021,QLD,Holiday,School Holidays,26/06/2021,11/07/2021,"Web scrape, 2025 run"
+2021,QLD,Holiday,School Holidays,18/09/2021,4/10/2021,"Web scrape, 2025 run"
+2021,QLD,Holiday,2021/2022 Summer School Holidays,11/12/2021,23/01/2022,"Web scrape, 2025 run"
+2022,QLD,Holiday,School Holidays,2/04/2022,18/04/2022,"Web scrape, 2025 run"
+2022,QLD,Holiday,School Holidays,25/06/2022,10/07/2022,"Web scrape, 2025 run"
+2022,QLD,Holiday,School Holidays,17/09/2022,3/10/2022,"Web scrape, 2025 run"
+2022,QLD,Holiday,2021/2022 Summer School Holidays,10/12/2022,22/01/2023,"Web scrape, 2025 run"
+2023,QLD,Holiday,School Holidays,1/04/2023,16/04/2023,"Web scrape, 2025 run"
+2023,QLD,Holiday,School Holidays,24/06/2023,9/07/2023,"Web scrape, 2025 run"
+2023,QLD,Holiday,School Holidays,16/09/2023,2/10/2023,"Web scrape, 2025 run"
+2023,QLD,Holiday,2023/2024 Summer School Holidays,9/12/2023,21/01/2024,"Web scrape, 2025 run"
+2024,QLD,Holiday,School Holidays,29/03/2024,14/04/2024,"Web scrape, 2025 run"
+2024,QLD,Holiday,School Holidays,22/06/2024,7/07/2024,"Web scrape, 2025 run"
+2024,QLD,Holiday,School Holidays,14/09/2024,29/09/2024,"Web scrape, 2025 run"
+2024,QLD,Holiday,2024/2025 Summer School Holidays,14/12/2024,27/01/2025,"Web scrape, 2025 run"
+2025,QLD,Holiday,School Holidays,5/04/2025,21/04/2025,"Web scrape, 2025 run"
+2025,QLD,Holiday,School Holidays,28/06/2025,13/07/2025,"Web scrape, 2025 run"
+2025,QLD,Holiday,School Holidays,20/09/2025,6/10/2025,"Web scrape, 2025 run"
+2025,QLD,Holiday,2025/2026 Summer School Holidays,13/12/2025,26/01/2026,"Web scrape, 2025 run"
+2015,SA,Holiday,School Holidays,11/04/2015,26/04/2015,"Web scrape, 2025 run"
+2015,SA,Holiday,School Holidays,4/07/2015,19/07/2015,"Web scrape, 2025 run"
+2015,SA,Holiday,School Holidays,26/09/2015,11/10/2015,"Web scrape, 2025 run"
+2015,SA,Holiday,School Holidays,12/12/2015,31/01/2016,"Web scrape, 2025 run"
+2016,SA,Holiday,School Holidays,16/04/2016,1/05/2016,"Web scrape, 2025 run"
+2016,SA,Holiday,School Holidays,9/07/2016,24/07/2016,"Web scrape, 2025 run"
+2016,SA,Holiday,School Holidays,1/10/2016,16/10/2016,"Web scrape, 2025 run"
+2016,SA,Holiday,School Holidays,17/12/2016,29/01/2017,"Web scrape, 2025 run"
+2017,SA,Holiday,School Holidays,14/04/2017,30/04/2017,"Web scrape, 2025 run"
+2017,SA,Holiday,School Holidays,8/07/2017,23/07/2017,"Web scrape, 2025 run"
+2017,SA,Holiday,School Holidays,30/09/2017,15/10/2017,"Web scrape, 2025 run"
+2017,SA,Holiday,School Holidays,16/12/2017,28/01/2018,"Web scrape, 2025 run"
+2018,SA,Holiday,School Holidays,14/04/2018,29/04/2018,"Web scrape, 2025 run"
+2018,SA,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
+2018,SA,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
+2018,SA,Holiday,School Holidays,15/12/2018,29/01/2019,"Web scrape, 2025 run"
+2019,SA,Holiday,School Holidays,13/04/2019,28/04/2019,"Web scrape, 2025 run"
+2019,SA,Holiday,School Holidays,6/07/2019,21/07/2019,"Web scrape, 2025 run"
+2019,SA,Holiday,School Holidays,28/09/2019,13/10/2019,"Web scrape, 2025 run"
+2019,SA,Holiday,School Holidays,14/12/2019,27/01/2020,"Web scrape, 2025 run"
+2020,SA,Holiday,School Holidays,10/04/2020,26/04/2020,"Web scrape, 2025 run"
+2020,SA,Holiday,School Holidays,4/07/2020,19/07/2020,"Web scrape, 2025 run"
+2020,SA,Holiday,School Holidays,26/09/2020,11/10/2020,"Web scrape, 2025 run"
+2020,SA,Holiday,School Holidays,12/12/2020,31/01/2021,"Web scrape, 2025 run"
+2021,SA,Holiday,School Holidays,10/04/2021,26/04/2021,"Web scrape, 2025 run"
+2021,SA,Holiday,School Holidays,3/07/2021,18/07/2021,"Web scrape, 2025 run"
+2021,SA,Holiday,School Holidays,25/09/2021,10/10/2021,"Web scrape, 2025 run"
+2021,SA,Holiday,School Holidays,11/12/2021,30/01/2022,"Web scrape, 2025 run"
+2022,SA,Holiday,School Holidays,15/04/2022,1/05/2022,"Web scrape, 2025 run"
+2022,SA,Holiday,School Holidays,9/07/2022,24/07/2022,"Web scrape, 2025 run"
+2022,SA,Holiday,School Holidays,1/10/2022,16/10/2022,"Web scrape, 2025 run"
+2022,SA,Holiday,School Holidays,17/12/2022,29/01/2023,"Web scrape, 2025 run"
+2023,SA,Holiday,School Holidays,15/04/2023,30/04/2023,"Web scrape, 2025 run"
+2023,SA,Holiday,School Holidays,8/07/2023,23/07/2023,"Web scrape, 2025 run"
+2023,SA,Holiday,School Holidays,30/09/2023,15/10/2023,"Web scrape, 2025 run"
+2023,SA,Holiday,School Holidays,16/12/2023,28/01/2024,"Web scrape, 2025 run"
+2024,SA,Holiday,School Holidays,13/04/2024,28/04/2024,"Web scrape, 2025 run"
+2024,SA,Holiday,School Holidays,6/07/2024,21/07/2024,"Web scrape, 2025 run"
+2024,SA,Holiday,School Holidays,28/09/2024,13/10/2024,"Web scrape, 2025 run"
+2024,SA,Holiday,School Holidays,14/12/2024,27/01/2025,"Web scrape, 2025 run"
+2025,SA,Holiday,School Holidays,12/04/2025,27/04/2025,"Web scrape, 2025 run"
+2025,SA,Holiday,School Holidays,5/07/2025,20/07/2025,"Web scrape, 2025 run"
+2025,SA,Holiday,School Holidays,27/09/2025,12/10/2025,"Web scrape, 2025 run"
+2025,SA,Holiday,School Holidays,13/12/2025,26/01/2026,"Web scrape, 2025 run"
+2018,TAS,Holiday,School Holidays,13/04/2018,29/04/2018,"Web scrape, 2025 run"
+2018,TAS,Holiday,School Holidays,7/07/2018,22/07/2018,"Web scrape, 2025 run"
+2018,TAS,Holiday,School Holidays,29/09/2018,14/10/2018,"Web scrape, 2025 run"
+2018,TAS,Holiday,School Holidays,21/12/2018,5/02/2019,"Web scrape, 2025 run"
+2019,TAS,Holiday,School Holidays,13/04/2019,28/04/2019,"Web scrape, 2025 run"
+2019,TAS,Holiday,School Holidays,6/07/2019,21/07/2019,"Web scrape, 2025 run"
+2019,TAS,Holiday,School Holidays,28/09/2019,13/10/2019,"Web scrape, 2025 run"
+2019,TAS,Holiday,School Holidays,20/12/2019,4/02/2020,"Web scrape, 2025 run"
+2020,TAS,Holiday,School Holidays,10/04/2020,26/04/2020,"Web scrape, 2025 run"
+2020,TAS,Holiday,School Holidays,4/07/2020,19/07/2020,"Web scrape, 2025 run"
+2020,TAS,Holiday,School Holidays,26/09/2020,11/10/2020,"Web scrape, 2025 run"
+2020,TAS,Holiday,School Holidays,18/12/2020,31/01/2021,"Web scrape, 2025 run"
+2021,TAS,Holiday,School Holidays,10/04/2021,25/04/2021,"Web scrape, 2025 run"
+2021,TAS,Holiday,School Holidays,3/07/2021,19/07/2021,"Web scrape, 2025 run"
+2021,TAS,Holiday,School Holidays,25/09/2021,10/10/2021,"Web scrape, 2025 run"
+2021,TAS,Holiday,School Holidays,17/12/2021,30/01/2022,"Web scrape, 2025 run"
+2022,TAS,Holiday,School Holidays,14/04/2022,1/05/2022,"Web scrape, 2025 run"
+2022,TAS,Holiday,School Holidays,9/07/2022,25/07/2022,"Web scrape, 2025 run"
+2022,TAS,Holiday,School Holidays,1/10/2022,16/10/2022,"Web scrape, 2025 run"
+2022,TAS,Holiday,School Holidays,22/12/2022,7/02/2023,"Web scrape, 2025 run"
+2023,TAS,Holiday,School Holidays,6/04/2023,25/04/2023,"Web scrape, 2025 run"
+2023,TAS,Holiday,School Holidays,8/07/2023,24/07/2023,"Web scrape, 2025 run"
+2023,TAS,Holiday,School Holidays,30/09/2023,15/10/2023,"Web scrape, 2025 run"
+2023,TAS,Holiday,School Holidays,22/12/2023,6/02/2024,"Web scrape, 2025 run"
+2014,VIC,Holiday,School Holidays,5/04/2014,21/04/2014,"Web scrape, 2025 run"
+2014,VIC,Holiday,School Holidays,28/06/2014,13/07/2014,"Web scrape, 2025 run"
+2014,VIC,Holiday,School Holidays,20/09/2014,7/10/2014,"Web scrape, 2025 run"
+2014,VIC,Holiday,2013/2014 Summer School Holidays,20/12/2014,27/01/2015,"Web scrape, 2025 run"
+2015,VIC,Holiday,School Holidays,28/03/2015,12/04/2015,"Web scrape, 2025 run"
+2015,VIC,Holiday,School Holidays,27/06/2015,12/07/2015,"Web scrape, 2025 run"
+2015,VIC,Holiday,School Holidays,19/09/2015,5/10/2015,"Web scrape, 2025 run"
+2015,VIC,Holiday,2015/2016 Summer School Holidays,19/12/2015,25/01/2016,"Web scrape, 2025 run"
+2016,VIC,Holiday,School Holidays,25/03/2016,10/04/2016,"Web scrape, 2025 run"
+2016,VIC,Holiday,School Holidays,25/06/2016,10/07/2016,"Web scrape, 2025 run"
+2016,VIC,Holiday,School Holidays,17/09/2016,2/10/2016,"Web scrape, 2025 run"
+2016,VIC,Holiday,2016/2017 Summer School Holidays,21/12/2016,30/01/2017,"Web scrape, 2025 run"
+2017,VIC,Holiday,School Holidays,1/04/2017,17/04/2017,"Web scrape, 2025 run"
+2017,VIC,Holiday,School Holidays,1/07/2017,16/07/2017,"Web scrape, 2025 run"
+2017,VIC,Holiday,School Holidays,23/09/2017,8/10/2017,"Web scrape, 2025 run"
+2017,VIC,Holiday,2017/2018 Summer School Holidays,23/12/2017,28/01/2018,"Web scrape, 2025 run"
+2018,VIC,Holiday,School Holidays,30/03/2018,15/04/2018,"Web scrape, 2025 run"
+2018,VIC,Holiday,School Holidays,30/06/2018,15/07/2018,"Web scrape, 2025 run"
+2018,VIC,Holiday,School Holidays,22/09/2018,7/10/2018,"Web scrape, 2025 run"
+2018,VIC,Holiday,2018/2019 Summer School Holidays,22/12/2018,29/01/2019,"Web scrape, 2025 run"
+2019,VIC,Holiday,School Holidays,6/04/2019,22/04/2019,"Web scrape, 2025 run"
+2019,VIC,Holiday,School Holidays,29/06/2019,14/07/2019,"Web scrape, 2025 run"
+2019,VIC,Holiday,School Holidays,21/09/2019,6/10/2019,"Web scrape, 2025 run"
+2019,VIC,Holiday,Summer School Holidays,21/12/2019,28/01/2020,"Web scrape, 2025 run"
+2020,VIC,Holiday,School Holidays,28/03/2020,13/04/2020,"Web scrape, 2025 run"
+2020,VIC,Holiday,School Holidays,27/06/2020,12/07/2020,"Web scrape, 2025 run"
+2020,VIC,Holiday,School Holidays,19/09/2020,4/10/2020,"Web scrape, 2025 run"
+2020,VIC,Holiday,2020/2021 Summer School Holidays,19/12/2020,26/01/2021,"Web scrape, 2025 run"
+2021,VIC,Holiday,School Holidays,2/04/2021,18/04/2021,"Web scrape, 2025 run"
+2021,VIC,Holiday,School Holidays,26/06/2021,11/07/2021,"Web scrape, 2025 run"
+2021,VIC,Holiday,School Holidays,18/09/2021,3/10/2021,"Web scrape, 2025 run"
+2021,VIC,Holiday,2021/2022 Summer School Holidays,18/12/2021,30/01/2022,"Web scrape, 2025 run"
+2022,VIC,Holiday,School Holidays,9/04/2022,25/04/2022,"Web scrape, 2025 run"
+2022,VIC,Holiday,School Holidays,25/06/2022,10/07/2022,"Web scrape, 2025 run"
+2022,VIC,Holiday,School Holidays,17/09/2022,2/10/2022,"Web scrape, 2025 run"
+2022,VIC,Holiday,2022/2023 Summer School Holidays,21/12/2022,29/01/2023,"Web scrape, 2025 run"
+2023,VIC,Holiday,School Holidays,7/04/2023,23/04/2023,"Web scrape, 2025 run"
+2023,VIC,Holiday,School Holidays,24/06/2023,9/07/2023,"Web scrape, 2025 run"
+2023,VIC,Holiday,School Holidays,16/09/2023,1/10/2023,"Web scrape, 2025 run"
+2023,VIC,Holiday,2023/2024 Summer School Holidays,21/12/2023,29/01/2024,"Web scrape, 2025 run"
+2024,VIC,Holiday,School Holidays,29/03/2024,14/04/2024,"Web scrape, 2025 run"
+2024,VIC,Holiday,School Holidays,29/06/2024,14/07/2024,"Web scrape, 2025 run"
+2024,VIC,Holiday,School Holidays,21/09/2024,6/10/2024,"Web scrape, 2025 run"
+2024,VIC,Holiday,2024/2025 Summer School Holidays,21/12/2024,28/01/2025,"Web scrape, 2025 run"
+2015,WA,Holiday,School Holidays,3/04/2015,19/04/2015,"Web scrape, 2025 run"
+2015,WA,Holiday,School Holidays,4/07/2015,19/07/2015,"Web scrape, 2025 run"
+2015,WA,Holiday,School Holidays,26/09/2015,11/10/2015,"Web scrape, 2025 run"
+2015,WA,Holiday,School Holidays,19/12/2015,31/01/2016,"Web scrape, 2025 run"
+2016,WA,Holiday,School Holidays,9/04/2016,25/04/2016,"Web scrape, 2025 run"
+2016,WA,Holiday,School Holidays,2/07/2016,17/07/2016,"Web scrape, 2025 run"
+2016,WA,Holiday,School Holidays,24/09/2016,9/10/2016,"Web scrape, 2025 run"
+2016,WA,Holiday,School Holidays,16/12/2016,31/01/2017,"Web scrape, 2025 run"
+2017,WA,Holiday,School Holidays,8/04/2017,23/04/2017,"Web scrape, 2025 run"
+2017,WA,Holiday,School Holidays,1/07/2017,16/07/2017,"Web scrape, 2025 run"
+2017,WA,Holiday,School Holidays,23/09/2017,8/10/2017,"Web scrape, 2025 run"
+2017,WA,Holiday,School Holidays,15/12/2017,28/01/2018,"Web scrape, 2025 run"
+2018,WA,Holiday,School Holidays,14/04/2018,29/04/2018,"Web scrape, 2025 run"
+2018,WA,Holiday,School Holidays,30/06/2018,15/07/2018,"Web scrape, 2025 run"
+2018,WA,Holiday,School Holidays,22/09/2018,7/10/2018,"Web scrape, 2025 run"
+2018,WA,Holiday,School Holidays,14/12/2018,3/02/2019,"Web scrape, 2025 run"
+2019,WA,Holiday,School Holidays,13/04/2019,28/04/2019,"Web scrape, 2025 run"
+2019,WA,Holiday,School Holidays,6/07/2019,21/07/2019,"Web scrape, 2025 run"
+2019,WA,Holiday,School Holidays,28/09/2019,13/10/2019,"Web scrape, 2025 run"
+2019,WA,Holiday,School Holidays,20/12/2019,2/02/2020,"Web scrape, 2025 run"
+2020,WA,Holiday,School Holidays,10/04/2020,27/04/2020,"Web scrape, 2025 run"
+2020,WA,Holiday,School Holidays,4/07/2020,19/07/2020,"Web scrape, 2025 run"
+2020,WA,Holiday,School Holidays,26/09/2020,11/10/2020,"Web scrape, 2025 run"
+2020,WA,Holiday,School Holidays,18/12/2020,31/01/2021,"Web scrape, 2025 run"
+2021,WA,Holiday,School Holidays,2/04/2021,18/04/2021,"Web scrape, 2025 run"
+2021,WA,Holiday,School Holidays,3/07/2021,18/07/2021,"Web scrape, 2025 run"
+2021,WA,Holiday,School Holidays,25/09/2021,10/10/2021,"Web scrape, 2025 run"
+2021,WA,Holiday,School Holidays,17/12/2021,30/01/2022,"Web scrape, 2025 run"
+2022,WA,Holiday,School Holidays,9/04/2022,25/04/2022,"Web scrape, 2025 run"
+2022,WA,Holiday,School Holidays,2/07/2022,17/07/2022,"Web scrape, 2025 run"
+2022,WA,Holiday,School Holidays,24/09/2022,9/10/2022,"Web scrape, 2025 run"
+2022,WA,Holiday,School Holidays,16/12/2022,31/01/2023,"Web scrape, 2025 run"
+2023,WA,Holiday,School Holidays,7/04/2023,23/04/2023,"Web scrape, 2025 run"
+2023,WA,Holiday,School Holidays,1/07/2023,16/07/2023,"Web scrape, 2025 run"
+2023,WA,Holiday,School Holidays,23/09/2023,8/10/2023,"Web scrape, 2025 run"
+2023,WA,Holiday,School Holidays,15/12/2023,30/01/2024,"Web scrape, 2025 run"
+2024,WA,Holiday,School Holidays,29/03/2024,14/04/2024,"Web scrape, 2025 run"
+2024,WA,Holiday,School Holidays,29/06/2024,14/07/2024,"Web scrape, 2025 run"
+2024,WA,Holiday,School Holidays,21/09/2024,6/10/2024,"Web scrape, 2025 run"
+2024,WA,Holiday,School Holidays,13/12/2024,4/02/2025,"Web scrape, 2025 run"
+2025,WA,Holiday,School Holidays,12/04/2025,27/04/2025,"Web scrape, 2025 run"
+2025,WA,Holiday,School Holidays,5/07/2025,20/07/2025,"Web scrape, 2025 run"
+2025,WA,Holiday,School Holidays,27/09/2025,12/10/2025,"Web scrape, 2025 run"
+2025,WA,Holiday,School Holidays,19/12/2025,1/02/2026,"Web scrape, 2025 run"
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
