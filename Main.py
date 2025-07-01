@@ -517,22 +517,22 @@ def get_school_dates(start_year,
 script_location = pathlib.Path(__file__).parent.resolve()
 
 # # Function call for Default Start-Finish Format
-# get_school_dates(2025,
-#                  2026,
-#                  output_mode='startfinish',
-#                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
-#                  output_folder_target=script_location,
-#                  show_qa_printouts=True,
-#                  drop_terms=True)
+get_school_dates(2025,
+                 2026,
+                 output_mode='startfinish',
+                 targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
+                 output_folder_target=script_location,
+                 show_qa_printouts=True,
+                 drop_terms=True)
 
-# # Function Call for Day Rows format
-# get_school_dates(2025,
-#                  2026,
-#                  output_mode='dayrows',
-#                  output_folder_target=script_location,
-#                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
-#                  show_qa_printouts=True,
-#                  drop_terms=True)
+# Function Call for Day Rows format
+get_school_dates(2025,
+                 2026,
+                 output_mode='dayrows',
+                 output_folder_target=script_location,
+                 targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
+                 show_qa_printouts=True,
+                 drop_terms=True)
 
 # Function call for Binary Day Rows format
 get_school_dates(2025,

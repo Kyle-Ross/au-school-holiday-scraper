@@ -1,0 +1,67 @@
+index,Calendar_Year,State,School_Period_Type,School_Period_Name,Start,Finish
+2,2025,ACT,Holiday,School Holidays,2025-04-12,2025-04-28
+4,2025,ACT,Holiday,School Holidays,2025-07-05,2025-07-21
+6,2025,ACT,Holiday,School Holidays,2025-09-27,2025-10-13
+8,2025,ACT,Holiday,School Holidays,2025-12-19,2026-02-01
+215,2026,ACT,Holiday,Term 1 Holidays (Autumn),2026-04-03,2026-04-20
+216,2026,ACT,Holiday,Term 2 Holidays (Winter),2026-07-04,2026-07-20
+217,2026,ACT,Holiday,Term 3 Holidays (Spring),2026-09-26,2026-10-12
+218,2026,ACT,Holiday,Term 4 Holidays (Summer),2026-12-19,2027-02-01
+2,2025,NSW,Holiday,School Holidays,2025-04-12,2025-04-27
+4,2025,NSW,Holiday,School Holidays,2025-07-05,2025-07-20
+6,2025,NSW,Holiday,School Holidays,2025-09-27,2025-10-12
+8,2025,NSW,Holiday,School Holidays - Eastern Division,2025-12-20,2026-01-26
+9,2025,NSW,Holiday,School Holidays - Western Division,2025-12-20,2026-02-02
+239,2026,NSW,Holiday,Term 1 Holidays (Autumn),2026-04-01,2026-04-19
+240,2026,NSW,Holiday,Term 2 Holidays (Winter),2026-07-04,2026-07-19
+241,2026,NSW,Holiday,Term 3 Holidays (Spring),2026-09-26,2026-10-11
+242,2026,NSW,Holiday,Term 4 Holidays - East (Summer),2026-12-18,2027-01-27
+243,2026,NSW,Holiday,Term 4 Holidays - West (Summer),2026-12-18,2027-02-03
+1,2025,NT,Holiday,School Holidays,2025-04-05,2025-04-13
+3,2025,NT,Holiday,School Holidays,2025-06-21,2025-07-14
+5,2025,NT,Holiday,School Holidays,2025-09-20,2025-10-05
+7,2025,NT,Holiday,School Holidays,2025-12-13,2026-01-27
+235,2026,NT,Holiday,Term 1 Holidays (Autumn),2026-04-03,2026-04-13
+236,2026,NT,Holiday,Term 2 Holidays (Winter),2026-06-20,2026-07-13
+237,2026,NT,Holiday,Term 3 Holidays (Spring),2026-09-19,2026-10-05
+238,2026,NT,Holiday,Term 4 Holidays (Summer),2026-12-11,2027-01-26
+1,2025,QLD,Holiday,School Holidays,2025-04-05,2025-04-21
+3,2025,QLD,Holiday,School Holidays,2025-06-28,2025-07-13
+5,2025,QLD,Holiday,School Holidays,2025-09-20,2025-10-06
+7,2025,QLD,Holiday,2025/2026 Summer School Holidays,2025-12-13,2026-01-26
+231,2026,QLD,Holiday,Term 1 Holidays (Autumn),2026-04-03,2026-04-19
+232,2026,QLD,Holiday,Term 2 Holidays (Winter),2026-06-27,2026-07-12
+233,2026,QLD,Holiday,Term 3 Holidays (Spring),2026-09-19,2026-10-05
+234,2026,QLD,Holiday,Term 4 Holidays (Summer),2026-12-12,2027-01-26
+1,2025,SA,Holiday,School Holidays,2025-04-12,2025-04-27
+3,2025,SA,Holiday,School Holidays,2025-07-05,2025-07-20
+5,2025,SA,Holiday,School Holidays,2025-09-27,2025-10-12
+7,2025,SA,Holiday,School Holidays,2025-12-13,2026-01-26
+227,2026,SA,Holiday,Term 1 Holidays (Autumn),2026-04-11,2026-04-26
+228,2026,SA,Holiday,Term 2 Holidays (Winter),2026-07-04,2026-07-19
+229,2026,SA,Holiday,Term 3 Holidays (Spring),2026-09-26,2026-10-11
+230,2026,SA,Holiday,Term 4 Holidays (Summer),2026-12-12,2027-01-26
+207,2025,TAS,Holiday,Term 1 Holidays (Autumn),2025-04-12,2025-04-27
+208,2025,TAS,Holiday,Term 2 Holidays (Winter),2025-07-05,2025-07-20
+209,2025,TAS,Holiday,Term 3 Holidays (Spring),2025-09-27,2025-10-12
+210,2025,TAS,Holiday,Term 4 Holidays (Summer),2025-10-19,2026-02-02
+211,2026,TAS,Holiday,Term 1 Holidays (Autumn),2026-04-12,2026-04-27
+212,2026,TAS,Holiday,Term 2 Holidays (Winter),2026-07-05,2026-07-20
+213,2026,TAS,Holiday,Term 3 Holidays (Spring),2026-09-27,2026-10-12
+214,2026,TAS,Holiday,Term 4 Holidays (Summer),2026-12-19,2027-02-04
+2,2025,VIC,Holiday,School Holidays,2025-04-05,2025-04-21
+4,2025,VIC,Holiday,School Holidays,2025-07-05,2025-07-20
+6,2025,VIC,Holiday,School Holidays,2025-09-20,2025-10-05
+8,2025,VIC,Holiday,2025/2026 Summer School Holidays,2025-12-20,2026-01-26
+223,2026,VIC,Holiday,Term 1 Holidays (Autumn),2026-04-03,2026-04-19
+224,2026,VIC,Holiday,Term 2 Holidays (Winter),2026-06-27,2026-07-12
+225,2026,VIC,Holiday,Term 3 Holidays (Spring),2026-09-19,2026-10-04
+226,2026,VIC,Holiday,Term 4 Holidays (Summer),2026-12-19,2027-01-26
+1,2025,WA,Holiday,School Holidays,2025-04-12,2025-04-27
+3,2025,WA,Holiday,School Holidays,2025-07-05,2025-07-20
+5,2025,WA,Holiday,School Holidays,2025-09-27,2025-10-12
+7,2025,WA,Holiday,School Holidays,2025-12-19,2026-02-01
+219,2026,WA,Holiday,Term 1 Holidays (Autumn),2026-04-03,2026-04-19
+220,2026,WA,Holiday,Term 2 Holidays (Winter),2026-07-04,2026-07-19
+221,2026,WA,Holiday,Term 3 Holidays (Spring),2026-09-26,2026-10-11
+222,2026,WA,Holiday,Term 4 Holidays (Summer),2026-12-18,2027-01-31
