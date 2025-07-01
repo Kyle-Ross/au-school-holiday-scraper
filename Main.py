@@ -42,12 +42,14 @@ def get_school_dates(start_year,
                        {'url': 'https://www.nswschoolholiday.com.au/index.php/',
                         'subdir': 'nsw-school-holiday-dates-',
                         'min': 2015,
+                        'skipyears': [2026],
                         'altyears': {}
                         },
                    'qld':
                        {'url': 'https://www.qldschoolholiday.com.au/',
                         'subdir': 'queensland-school-holiday-dates-',
                         'min': 2014,
+                        'skipyears': [2026],
                         'altyears':
                             {2014: 'https://www.qldschoolholiday.com.au/qld-school-holiday-dates-2014/',
                              2015: 'https://www.qldschoolholiday.com.au/qld-school-holiday-dates-2015/',
@@ -57,12 +59,14 @@ def get_school_dates(start_year,
                        {'url': 'https://www.schoolholidayssa.com.au/',
                         'subdir': 'sa-school-holiday-dates-',
                         'min': 2015,
+                        'skipyears': [2026],
                         'altyears': {}
                         },
                    'vic':
                        {'url': 'https://www.victoriaschoolholidays.com.au/',
                         'subdir': 'vic-school-holiday-dates-',
                         'min': 2014,
+                        'skipyears': [2026],
                         'altyears':
                             {2014: 'https://www.victoriaschoolholidays.com.au/2014-term-dates',
                              2015: 'https://www.victoriaschoolholidays.com.au/2015-term-dates',
@@ -72,24 +76,28 @@ def get_school_dates(start_year,
                        {'url': 'https://www.schoolholidayswa.com.au/',
                         'subdir': 'wa-school-holiday-dates-',
                         'min': 2015,
+                        'skipyears': [2026],
                         'altyears': {}
                         },
                    'nt':
                        {'url': 'https://www.ntschoolholidays.com.au/',
                         'subdir': 'nt-school-holiday-dates-',
                         'min': 2018,
+                        'skipyears': [2026],
                         'altyears': {}
                         },
                    'act':
                        {'url': 'https://www.actschoolholidays.com.au/',
                         'subdir': 'act-school-holiday-dates-',
                         'min': 2018,
+                        'skipyears': [2026],
                         'altyears': {}
                         },
                    'tas':
                        {'url': 'https://tasmanianschoolholidays.com.au/',
                         'subdir': 'tasmanian-school-holiday-dates-',
                         'min': 2018,
+                        'skipyears': [2026],
                         'altyears': {2018: 'https://tasmanianschoolholidays.com.au/tas-school-holiday-dates-2018',
                                      2019: 'https://tasmanianschoolholidays.com.au/tas-school-holiday-dates-2019',
                                      2020: 'https://tasmanianschoolholidays.com.au/tas-school-holiday-dates-2020',
@@ -135,6 +143,21 @@ def get_school_dates(start_year,
 
                 # Appending dict to list of missing data
                 missing_list.append({'Type': 'below minimum available',
+                                     'Source': 'dict lookup',
+                                     'Year': year,
+                                     'State': target_state.upper()})
+
+                continue
+
+            # Checking if requested year is one of the skip years
+            if year in states_list[target_state]['skipyears']:
+
+                qa_printout(
+                    f"{target_state.upper()} data not pulled for year {year},"
+                    f"{year} is in skipyears: {states_list[target_state]['skipyears']}.")
+
+                # Appending dict to list of missing data
+                missing_list.append({'Type': 'Year in skip years',
                                      'Source': 'dict lookup',
                                      'Year': year,
                                      'State': target_state.upper()})
@@ -493,27 +516,27 @@ def get_school_dates(start_year,
 # Get path of this script for the output target
 script_location = pathlib.Path(__file__).parent.resolve()
 
-# Function call for Default Start-Finish Format
-get_school_dates(2010,
-                 2025,
-                 output_mode='startfinish',
-                 targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
-                 output_folder_target=script_location,
-                 show_qa_printouts=True,
-                 drop_terms=True)
+# # Function call for Default Start-Finish Format
+# get_school_dates(2025,
+#                  2026,
+#                  output_mode='startfinish',
+#                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
+#                  output_folder_target=script_location,
+#                  show_qa_printouts=True,
+#                  drop_terms=True)
 
-# Function Call for Day Rows format
-get_school_dates(2010,
-                 2025,
-                 output_mode='dayrows',
-                 output_folder_target=script_location,
-                 targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
-                 show_qa_printouts=True,
-                 drop_terms=True)
+# # Function Call for Day Rows format
+# get_school_dates(2025,
+#                  2026,
+#                  output_mode='dayrows',
+#                  output_folder_target=script_location,
+#                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
+#                  show_qa_printouts=True,
+#                  drop_terms=True)
 
 # Function call for Binary Day Rows format
-get_school_dates(2010,
-                 2025,
+get_school_dates(2025,
+                 2026,
                  output_mode='binarydayrows',
                  output_folder_target=script_location,
                  targets=['nsw', 'qld', 'sa', 'vic', 'wa', 'nt', 'act', 'tas'],
